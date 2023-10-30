@@ -315,7 +315,16 @@ justify-content: center;}
     height: 100%;
     
   }
- 
+  .botonVP{
+    border: none;
+    background-color: rgba(210, 177, 93, 1);
+    color: white;
+  }
+  .botonVD{
+    border: none;
+    margin-left: 20px;
+    background-color: white;
+  }
   .desc{
     display: none;
     color: white;
@@ -325,7 +334,12 @@ justify-content: center;}
     display: none;
     color: white;
     margin: 15px;
+    margin-top: 0;
   }
+  *{
+    text-decoration: none;
+  }
+  a{text-decoration: none;}
  
  #item-0:hover .imagen,#item-1:hover .imagen,#item-2:hover .imagen,#item-3:hover .imagen
  ,#item-4:hover .imagen,#item-5:hover .imagen,#item-6:hover .imagen,#item-7:hover .imagen,#item-8:hover .imagen{
@@ -619,14 +633,19 @@ justify-content: center;}
     flex-direction: column;
     position: relative;
  }
+ /* variado */ 
+
+
+
  /* 3 = web*/
- #item-18:hover .imagen,#item-19:hover .imagen,#item-20:hover .imagen{
+ #item-18:hover .imagen,#item-19:hover .imagen,#item-20:hover .imagen, #item-28:hover .imagen{
     z-index: -999;
   }
  
   #item-18:hover .desc,  #item-18:hover .titulo, #item-18:hover .fondo,
   #item-19:hover .desc,  #item-19:hover .titulo, #item-19:hover .fondo,
-  #item-20:hover .desc,  #item-20:hover .titulo, #item-20:hover .fondo{
+  #item-20:hover .desc,  #item-20:hover .titulo, #item-20:hover .fondo, 
+  #item-28:hover .desc,  #item-28:hover .titulo, #item-28:hover .fondo{
     display: block;
     
   }
@@ -687,6 +706,16 @@ justify-content: center;}
     flex-direction: column;
     position: relative;
     
+ }
+ #item-28{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    box-shadow: -2px 2px rgb(35, 35, 92);
+    grid-row-end: 3;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    position: relative;
  }
  
  /*Mockups*/
