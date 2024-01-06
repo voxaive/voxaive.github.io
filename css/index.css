@@ -1024,7 +1024,7 @@ a {
     display: none;
 }
 
-
+.cajaVerMas2{display: none;}
 .cajaVerMas {
     background-color: white;
     border-radius: 100px;
@@ -1281,6 +1281,9 @@ form {
 }
 
 /* fin contactar*/
+
+
+
 @media(max-width:1130px) {
     #contacto {
         width: 80%;
@@ -1428,6 +1431,22 @@ form {
 }
 
 @media(max-width:910px) {
+    .responsiveD{
+        display: flex !important;
+        justify-content: space-around;
+        height: 100px;
+        width: 100%;
+    }
+    .cajaVerMas2 {
+        background-color: white;
+        border-radius: 100px;
+        width: 150px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
     .comentarios,
     .angry-grid,
     .angry-grid2,
@@ -1585,9 +1604,11 @@ form {
     .cajaVal {
         width: 65%;
     }
-    .item2{
+
+    .item2 {
         justify-content: start;
     }
+
     .tituloBann {
         width: 100%;
     }
