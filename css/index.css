@@ -1173,7 +1173,8 @@ a {
     height: 40px;
 }
 
-.conjuntoLet * , .conjuntoLet2 *{
+.conjuntoLet *,
+.conjuntoLet2 * {
     color: white;
 }
 
@@ -1308,16 +1309,19 @@ form {
     .cajaCont {
         flex-direction: column-reverse;
     }
-    .comentarios{
+
+    .comentarios {
         display: flex;
         flex-direction: column;
         align-items: center;
 
     }
-    .conjuntoLet2{
+
+    .conjuntoLet2 {
         height: 73% !important;
     }
-    .cajaVal{
+
+    .cajaVal {
         width: 70%;
         margin-top: 10px;
     }
@@ -1424,7 +1428,7 @@ form {
 }
 
 @media(max-width:910px) {
-
+    .comentarios,
     .angry-grid,
     .angry-grid2,
     .angry-grid4,
@@ -1472,6 +1476,14 @@ form {
         font-size: 5em;
         text-align: center;
         background-color: black;
+        border-radius: 7px;
+    }
+
+    .item2 {
+        display: flex;
+        min-width: 500px;
+        height: 600px;
+        justify-content: center;
         border-radius: 7px;
     }
 
@@ -1528,9 +1540,11 @@ form {
         height: 400px;
         width: 300%;
     }
-    .conjuntoLet2{
+
+    .conjuntoLet2 {
         height: 64% !important;
     }
+
     #carrusel-contenido {
         margin: 0 auto;
         overflow: hidden;
@@ -1561,14 +1575,18 @@ form {
     .caj2 {
         display: none;
     }
-    .conjuntoLet2{
+
+    .conjuntoLet2 {
         height: 54% !important;
     }
 }
 
 @media(max-width: 558px) {
-    .cajaVal{
-        width: 90%;
+    .cajaVal {
+        width: 65%;
+    }
+    .item2{
+        justify-content: start;
     }
     .tituloBann {
         width: 100%;
@@ -1587,7 +1605,8 @@ form {
     .banner {
         height: 826px;
     }
-    .conjuntoLet2{
+
+    .conjuntoLet2 {
         height: 44% !important;
     }
 }
