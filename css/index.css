@@ -315,7 +315,8 @@ h2 {
 }
 
 #DiseñoG,
-#desarrolloW {
+#desarrolloW,
+#edicion {
     display: flex;
     margin-top: 20px;
     flex-direction: column;
@@ -804,7 +805,7 @@ a {
 
     grid-row-start: 1;
     grid-column-start: 3;
-    box-shadow: -2px 2px rgb(0, 0, 0);
+
     grid-row-end: 3;
     grid-column-end: 4;
     display: flex;
@@ -818,7 +819,7 @@ a {
 
     grid-row-start: 1;
     grid-column-start: 2;
-    box-shadow: -2px 2px rgb(0, 0, 0);
+
     grid-row-end: 3;
     grid-column-end: 3;
     display: flex;
@@ -832,7 +833,7 @@ a {
 
     grid-row-start: 1;
     grid-column-start: 1;
-    box-shadow: -2px 2px rgb(0, 0, 0);
+
     grid-row-end: 3;
     grid-column-end: 2;
     display: flex;
@@ -844,7 +845,7 @@ a {
 #item-28 {
     grid-row-start: 1;
     grid-column-start: 1;
-    box-shadow: -2px 2px rgb(0, 0, 0);
+
     grid-row-end: 3;
     grid-column-end: 2;
     display: flex;
@@ -992,7 +993,7 @@ a {
 }
 
 
-#desarrolloW {
+#desarrolloW, #edicion {
     display: none;
 
 }
@@ -1084,15 +1085,16 @@ a {
 #DesarrolloWeb:checked~#desarrolloW {
     display: flex;
 }
+#edicionVideos:checked~#edicion {
+    display: flex;
+}
 
 #edicionVideos:checked~#DiseñoG,
 #edicionVideos:checked~#desarrolloW {
     display: none;
 }
 
-#edicionVideos:checked~#videos {
-    display: flex;
-}
+
 
 #diseñoGrafico {
     display: none;
@@ -1102,7 +1104,7 @@ a {
     display: none;
 }
 
-#videos {
+#edicion {
     display: none;
 }
 
@@ -1446,7 +1448,12 @@ form {
         justify-content: center;
         align-items: center;
         cursor: pointer;
+        
     }
+    .conjuntoLet2 {
+        height: 62% !important;
+    }
+
     .comentarios,
     .angry-grid,
     .angry-grid2,
@@ -1561,7 +1568,7 @@ form {
     }
 
     .conjuntoLet2 {
-        height: 64% !important;
+        height: 62% !important;
     }
 
     #carrusel-contenido {
@@ -1595,9 +1602,7 @@ form {
         display: none;
     }
 
-    .conjuntoLet2 {
-        height: 54% !important;
-    }
+
 }
 
 @media(max-width: 558px) {
@@ -1628,6 +1633,6 @@ form {
     }
 
     .conjuntoLet2 {
-        height: 44% !important;
+        height: 58% !important;
     }
 }
