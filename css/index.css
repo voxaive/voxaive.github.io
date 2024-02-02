@@ -932,7 +932,7 @@ a {
 
 }
 
-#item-20 {
+#item-20 , #item-212{
 
 
     grid-row-start: 1;
@@ -945,6 +945,7 @@ a {
     position: relative;
 
 }
+
 
 #item-28 {
     grid-row-start: 1;
