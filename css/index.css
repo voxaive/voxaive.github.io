@@ -360,6 +360,16 @@ h2 {
     height: 500px;
 
 }
+.angry-grid6-1 {
+    display: grid;
+
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 835.2px;
+    gap: 6px;
+    height: 500px;
+
+}
 
 #trabajos {
     display: flex;
@@ -654,6 +664,15 @@ a {
 
 }
 
+#item-R1-1 {
+
+    grid-row-start: 1;
+    grid-column-start: 3;
+
+    grid-row-end: 3;
+    grid-column-end: 3;
+
+}
 #item-R2 {
 
     grid-row-start: 1;
@@ -892,6 +911,24 @@ a {
     gap: 6px;
 }
 
+.angry-grid4-1 {
+    display: flex;
+
+    justify-content: space-around;
+    width: 930px;
+    gap: 6px;
+    height: 480px;
+
+}
+
+.item-18 {
+    
+    position: relative;
+    width: 100%;
+    max-width: 300px; 
+
+}
+
 .angry-grid3 {
     display: grid;
 
@@ -918,19 +955,7 @@ a {
 
 }
 
-#item-19 {
 
-
-    grid-row-start: 1;
-    grid-column-start: 2;
-
-    grid-row-end: 3;
-    grid-column-end: 3;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-
-}
 
 #item-20 , #item-212{
 
@@ -1572,7 +1597,9 @@ form {
         height: 100px;
         width: 100%;
     }
-
+    #edicion{
+        display: none !important;
+    }
     .cajaVerMas2 {
         background-color: white;
         border-radius: 100px;
