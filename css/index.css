@@ -84,7 +84,9 @@ body {
 
 h1,
 h2 {
-    font-family: 'Koulen';
+     font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .logoMenu {
@@ -183,7 +185,9 @@ h2 {
     width: 548px;
     text-align: center;
     color: white;
-    font-family: 'Koulen';
+     font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-style: normal;
     font-size: 70px;
 }
 
