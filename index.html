@@ -1,246 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-
-    <!-- Meta -->
-    <meta name="title" content="Voxaive - Diseño y desarrollo | Transformamos ideas en Experiencias Únicas">
-    <meta name="description"
-        content="Grupo especializado en edición de videos, diseño gráfico y desarrollo web. Transformamos ideas en realidad con creatividad y precisión. ¡Descubre cómo podemos llevar tu proyecto al siguiente nivel!">
-    <meta name="keywords" content="desarrollo web">
-    <meta name="keywords" content="Diseño gráfico">
-    <meta name="keywords" content="design web">
-    <meta name="keywords" content="Photoshop">
-    <meta name="keywords" content="premiere">
-    <meta name="keywords" content="diseño web">
-    <meta name="keywords" content="edición de videos">
-    <meta name="keywords" content="Ilustrator">
-    <meta name="keywords" content="Graphic Design">
-    <meta name="keywords" content="voxaive">
-    <meta name="keywords" content="Voxaive">
-    <meta name="keywords" content="Vox">
-    <meta name="keywords" content="VOXAIVE">
-    <link rel="favicon" href="imagenes/logo.webp">
-
-    <!-- fin M -->
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- CSS only -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500&family=Roboto+Condensed&family=Shadows+Into+Light&display=swap"
-        rel="stylesheet">
-
-    <link rel="canonical" href="https://voxaive.github.io/">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="icon" href="imagenes/logo.webp">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Voxaive</title>
+
 </head>
-<script src="https://kit.fontawesome.com/33ee878d4e.js" crossorigin="anonymous"></script>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PNQBR8488W"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-PNQBR8488W');
-</script>
-
 <body>
-    <header id="inicio">
-        <div class="bannerF"></div>
-        <img class="banner" src="imagenes/fondo.webp" alt="Banner">
-
-        <nav class="BarraN">
-            <img class="imagenLogo" src="imagenes/logo.webp" alt="logo">
-            <ul>
-                <ul class="centrarMenu">
-                    <li><a class="menAli" href="#inicio" style="margin:0; font-size: 20px;">Inicio</a>
-                        <div class="barraDB"></div>
-                    </li>
-                    <li><a class="menAli" href="#NOSOTROS" style="font-size: 20px;">Nosotros</a>
-                        <div class="barraDB"></div>
-                    </li>
-                    <li><a href="#Trabajos" style="font-size: 20px;">Trabajos</a>
-                        <div class="barraDB"></div>
-                    </li>
-                    <li><a href="#valoraciones" style="font-size: 20px;">Valoraciones</a>
-                        <div class="barraDB"></div>
-                    </li>
-                </ul>
-                <div class="cajaContactoMenu">
-                    <li><a href="#contacto"
-                            style="margin-left: 20px; margin-right: 20px; font-size: 20px; color: rgb(255, 255, 255);">
-                            <p style="margin: 0;">Contactar</p>
-                        </a>
-                        <div class="barraDB"></div>
-                    </li>
+    <section id="inicio">
+        <header id="header">
+            <div class="contenedorH"> 
+                <div class="iconosD">
+                    <div class="icono"><img src="imagenes/logo.png" alt=""></div>
+                    <i><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6s9.6-4.298 9.6-9.6S15.302.4 10 .4M7.65 13.979H5.706V7.723H7.65zm-.984-7.024c-.614 0-1.011-.435-1.011-.973c0-.549.409-.971 1.036-.971s1.011.422 1.023.971c0 .538-.396.973-1.048.973m8.084 7.024h-1.944v-3.467c0-.807-.282-1.355-.985-1.355c-.537 0-.856.371-.997.728c-.052.127-.065.307-.065.486v3.607H8.814v-4.26c0-.781-.025-1.434-.051-1.996h1.689l.089.869h.039c.256-.408.883-1.01 1.932-1.01c1.279 0 2.238.857 2.238 2.699z"/></svg></i>
+                    <i><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M13 10a3 3 0 1 1-6 0q.001-.257.049-.5H6v3.997c0 .278.225.503.503.503h6.995a.503.503 0 0 0 .502-.503V9.5h-1.049q.048.243.049.5m-3 2a2 2 0 1 0-.001-4.001A2 2 0 0 0 10 12m2.4-4.1h1.199a.3.3 0 0 0 .301-.3V6.401a.3.3 0 0 0-.301-.301H12.4a.3.3 0 0 0-.301.301V7.6c.001.165.136.3.301.3M10 .4A9.6 9.6 0 0 0 .4 10a9.6 9.6 0 0 0 9.6 9.6a9.6 9.6 0 0 0 9.6-9.6A9.6 9.6 0 0 0 10 .4m5 13.489C15 14.5 14.5 15 13.889 15H6.111C5.5 15 5 14.5 5 13.889V6.111C5 5.5 5.5 5 6.111 5h7.778C14.5 5 15 5.5 15 6.111z"/></svg></i>
+                    <i><svg  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 91.38"><defs></defs><title>freelancer</title><path class="cls-1" d="M72.19,0l8.37,11.74L122.88,0Zm-44,91.38L51.08,69,37.3,54.19,28.18,91.38ZM68.7,0,56.46,11l20.59.77L68.7,0ZM21.11,0l4.42,9,24.23,1.51L21.11,0Zm13,46.73L52,13.33,0,10.52,34.09,46.73Zm2.08,2.11L53.08,67,71.73,48.72l5.79-34L54.79,13.51,36.17,48.84Zm0,0Z"/></svg></i>    
                 </div>
-
-            </ul>
-
-        </nav>
-        <nav class="cajaMenuRep">
-            <div class="cajaLogo">
-                <img class="logoRep" src="imagenes/logo.webp" alt="logo">
+                <ul class="ulNoResp">
+                    <li class="listS"><a href="#inicio">INICIO</a></li>
+                    <li class="listS"><a href="#about">SOBRE NOSOTROS</a></li>
+                    <li class="listS"><a href="#habilidades">HABILIDADES</a></li>
+                    <li class="listS"><a href="#">PROYECTOS</a></li>
+                    <li class="listS"><a href="#contactar">CONTACTAR</a></li>
+                </ul>
             </div>
-            <input type="checkbox" id="checkMenRep">
-            <label for="checkMenRep" class="checkbtnRep">
-                <i id="abrir" class="material-symbols-outlined">
-                    menu
-                </i>
-            </label>
-            <ul id="ulREP">
-                <li><a class="active" href="#inicio">INICIO</a></li>
-                <li><a href="#NOSOTROS">NOSOTROS</a></li>
-                <li><a href="#trabajos">TRABAJOS</a></li>
-                <li><a href="#valoraciones">VALORACIONES</a></li>
-                <li><a href="#contacto">CONTACTAR</a></li>
-            </ul>
-        </nav>
-
-        <div class="MedBann">
-            <div class="caj1" data-aos="fade-left" data-aos-duration="1500">
-
-            </div>
-            <div class="Cen">
-                <h1 class="tituloBann">
-                    HACEMOS TUS IDEAS REALIDAD
-                </h1>
-                <a class="ContBann" href="#contacto">
-                    <div class="bord">
-                        <div class="BackgroundContBann">
-                            <a style=" color: rgba(255, 255, 255, 0.836); text-decoration: none; " href="#contacto">
-                                <h2 style="margin: 0 !important;">CONTACTAR</h2>
-                            </a>
+            <nav class="cajaMenuRep">
+                <input type="checkbox" id="checkMenRep">
+                <label for="checkMenRep" class="checkbtnRep">
+                    <i id="abrir" class="material-symbols-outlined">
+                        ☰
+                    </i>
+                </label>
+                <ul id="ulREP">
+                    <li><a class="active" href="#inicio">INICIO</a></li>
+                    <li><a href="#about">SOBRE NOSOTROS</a></li>
+                    <li><a href="#habilidades">HABILIDADES</a></li>
+                    <li><a href="#valoraciones">PROYECTOS</a></li>
+                    <li><a href="#contactar">CONTACTAR</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="sa">
+            <div class="contenedorH">
+                <div data-aos="fade-right" data-aos-duration="1500" class="barraTit">
+                    <h3>VOXAIVE</h3>
+                    <h1>INNOVACIONES <span class="colorVerd">TECNOLÓGICAS</span></h1>
+                    <p>Más que una<span class="colorVerd"> página web</span>: un sentimiento que refleja el corazón y el alma de cada<span class="colorVerd"> empresa</span>.</p>
+                    <div class="cajaCONTACTOHE">
+                        <button>CONTACTAR</button> 
+                        <div class="iconosConBan">
+                            <i><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6s9.6-4.298 9.6-9.6S15.302.4 10 .4M7.65 13.979H5.706V7.723H7.65zm-.984-7.024c-.614 0-1.011-.435-1.011-.973c0-.549.409-.971 1.036-.971s1.011.422 1.023.971c0 .538-.396.973-1.048.973m8.084 7.024h-1.944v-3.467c0-.807-.282-1.355-.985-1.355c-.537 0-.856.371-.997.728c-.052.127-.065.307-.065.486v3.607H8.814v-4.26c0-.781-.025-1.434-.051-1.996h1.689l.089.869h.039c.256-.408.883-1.01 1.932-1.01c1.279 0 2.238.857 2.238 2.699z"/></svg></i>
+                            <i><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M13 10a3 3 0 1 1-6 0q.001-.257.049-.5H6v3.997c0 .278.225.503.503.503h6.995a.503.503 0 0 0 .502-.503V9.5h-1.049q.048.243.049.5m-3 2a2 2 0 1 0-.001-4.001A2 2 0 0 0 10 12m2.4-4.1h1.199a.3.3 0 0 0 .301-.3V6.401a.3.3 0 0 0-.301-.301H12.4a.3.3 0 0 0-.301.301V7.6c.001.165.136.3.301.3M10 .4A9.6 9.6 0 0 0 .4 10a9.6 9.6 0 0 0 9.6 9.6a9.6 9.6 0 0 0 9.6-9.6A9.6 9.6 0 0 0 10 .4m5 13.489C15 14.5 14.5 15 13.889 15H6.111C5.5 15 5 14.5 5 13.889V6.111C5 5.5 5.5 5 6.111 5h7.778C14.5 5 15 5.5 15 6.111z"/></svg></i>
+                            <i><svg  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 91.38"><defs></defs><title>freelancer</title><path class="cls-1" d="M72.19,0l8.37,11.74L122.88,0Zm-44,91.38L51.08,69,37.3,54.19,28.18,91.38ZM68.7,0,56.46,11l20.59.77L68.7,0ZM21.11,0l4.42,9,24.23,1.51L21.11,0Zm13,46.73L52,13.33,0,10.52,34.09,46.73Zm2.08,2.11L53.08,67,71.73,48.72l5.79-34L54.79,13.51,36.17,48.84Zm0,0Z"/></svg></i>
                         </div>
                     </div>
-                </a>
-            </div>
-            <div class="caj2" data-aos="fade-right" data-aos-duration="1500">
-
+                </div>
+                <div class="la"></div>
             </div>
         </div>
-
-    </header>
-    <section id="NOSOTROS">
-        <div class="centrado">
-            <div class="cajaCont">
-                <div class="iconos">
-                    <div class="arriba">
-                        <img src="imagenes/Lenguajes/png/adobe-photoshop-logo.webp" style="margin-left: 0;" width="70px"
-                            height="70px" alt="">
-                        <img src="imagenes/Lenguajes/png/Illustrator-Logo.webp" width="70px" height="70px" alt="">
-                        <img src="imagenes/Lenguajes/png/HTML5_logo_and_wordmark.webp" width="70px" height="70px"
-                            alt="">
-                        <img src="imagenes/Lenguajes/png/CSS.webp" width="70px" height="70px" alt="">
-                    </div>
-                    <div class="abajo">
-                        <img src="imagenes/Lenguajes/png/graphic-designer-and-web-design-studio-tool-logo-free-vector.webp"
-                            style="margin-left: 0;" width="80px" height="80px" alt="">
-                        <img src="imagenes/Lenguajes/png/MySQL-logo.webp" width="85px" height="70px" alt="">
-                        <img src="imagenes/Lenguajes/png/PHP-logo.webp" width="100px" height="70px" alt="">
-
-                    </div>
-                </div>
-
-                <div class="text">
-                    <h2 style="color: white;">NOSOTROS</h2>
-                    <div style="width: 100%; height: 2px; background-color: white;"></div>
-                    <p style="margin-top: 10px; color: white;">Voxaive surgió como un proyecto impulsado por cuatro
-                        jóvenes estudiantes de una institución
-                        especializada en computación. En la actualidad, nuestro equipo está compuesto por diez personas
-                        que ofrecen sus servicios como freelancers, dedicados al diseño gráfico, edición de videos y
-                        desarrollo web.</p>
-                </div>
-
-
+        <div class="division">
+            <div class="cajaJuntar">
+                <hr data-aos="fade-right"  style="margin-right:20px;">
+                <div class="circCh"></div>
+                <hr data-aos="fade-left" style="margin-left:20px;">
             </div>
-            <div class="tar" data-aos="fade-up">
-                <div class="titTarj">
-                    <h2 style="margin-bottom: 0; color: white;">SERVICIOS</h2>
-                    <br>
-                </div>
-                <div class="tarjetas">
-                    <div class="edicion">
-                        <span style="display: flex; justify-content: center; font-size: 100px;"
-                            class="material-symbols-outlined">
-                            video_call
-                        </span>
-                        <h3 style="display: flex; justify-content: center;">Edición de videos</h3>
-                        <p style="margin: 10px; text-align: center; display: flex; justify-content: center;">Somos
-                            especialistas en edición de videos.
-                            Convertimos ideas en contenido visual cautivador. Desde montajes dinámicos hasta efectos
-                            impactantes, damos vida a tus proyectos audiovisuales.
-
-                        </p>
-                    </div>
-                    <div class="edicion">
-                        <span style="display: flex; justify-content: center; font-size: 100px;"
-                            class="material-symbols-outlined">
-                            draw
-                        </span>
-                        <h3 style="display: flex; justify-content: center;">Diseño Gráfico</h3>
-                        <p style="margin: 10px; text-align: center; display: flex; justify-content: center;">Somos tu
-                            aliado en diseño gráfico. Desde identidades visuales únicas hasta materiales impresos y
-                            digitales impactantes, nuestro equipo crea soluciones visuales que destacan. Haz brillar tu
-                            marca con nuestra creatividad y experiencia en diseño gráfico.
-
-                        </p>
-                    </div>
-                    <div class="edicion">
-                        <span style="display: flex; justify-content: center; font-size: 100px;"
-                            class="material-symbols-outlined">
-                            devices
-                        </span>
-                        <h3 style="display: flex; justify-content: center;">Páginas web</h3>
-                        <p style="margin: 10px; text-align: center; display: flex; justify-content: center;">Expertos en
-                            diseño web. Creamos experiencias digitales que cautivan. Desde sitios dinámicos hasta
-                            interfaces intuitivas, nuestro equipo da vida a tu presencia online. Descubre cómo nuestra
-                            creatividad en diseño web puede impulsar tu marca.
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div>
-
         </div>
     </section>
-    <section id="Trabajos">
+    <section id="about">
+        <div class="general">
+            <div style="width: 100%;">
+                <div class="conjunto">
+                    <div class="conjuntoIzq">
+                        <div class="decoracionIzq">
+                            <div data-aos="fade-down"  class="circDecoIzq"></div>
+                            <div data-aos="fade-down"  class="cajaS"></div>
+                        </div>
+                        <div class="cuadradoVerde"></div>
+                    </div>
+                    <div class="SobreNosotros">
+                        <h2 class="TITULOSob">SOBRE NOSOTROS</h2>
+                        <div class="decoracionDer">
+                            <div data-aos="fade-right" class="circDecoIzq"></div>
+                            <div data-aos="fade-right" class="cajaS2"></div>
+                        </div>
+                        <p>Voxaive surgió como un proyecto impulsado por cuatro jóvenes estudiantes de una institución especializada en computación. En la actualidad, nuestro equipo está compuesto por diez personas que ofrecen sus servicios como freelancers, dedicados al diseño gráfico, edición de videos y desarrollo web.</p>
+                        <div class="superpuesto">
+                            <div class="cajaHabilidades">
+                                <span style="display: flex; justify-content: center; margin-top: 20px; font-size: 100px; color:white;"
+                                class="material-symbols-outlined">
+                                draw
+                            </span>
+                                <p class="textoHabilidades">Somos tu aliado en diseño gráfico. Desde identidades visuales únicas hasta materiales impresos y digitales impactantes, nuestro equipo crea soluciones visuales que destacan. Haz brillar tu marca con nuestra creatividad y experiencia en diseño gráfico.</p>
+                            </div>
+                            <div class="cajaHabilidades">
+                                <span style="display: flex; justify-content: center; margin-top: 20px; font-size: 100px; color: white;"
+                                class="material-symbols-outlined">
+                                devices
+                            </span>
+                                <p class="textoHabilidades">Expertos en
+                                    diseño web. Creamos experiencias digitales que cautivan. Desde sitios dinámicos hasta
+                                    interfaces intuitivas, nuestro equipo da vida a tu presencia online. Descubre cómo nuestra
+                                    creatividad en diseño web puede impulsar tu marca.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <div class="habTitCaja">
+            <h2>HABILIDADES</h2>
+        </div>
+
+            <div class="parent">
+                <div class="div1">
+                    <div class="iconos">
+                        <img src="imagenes/iconosHab/HTML5_logo_and_wordmark.png" alt="">
+                        <img src="imagenes/iconosHab/CSS.png" alt="">
+                        <img src="imagenes/iconosHab/Bootstrap_logo.png" alt="">
+                    </div>    
+                    <div class="ubicarAbajo">
+                        <div class="tituloCajaHab">
+                            <h2>FRONT-END</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="div2"> 
+                    <div class="iconos">
+                        <div>
+                            <img src="imagenes/iconosHab/MySQL-logo.png" alt="">
+                            <img src="imagenes/iconosHab/Postgresql_elephant.png" alt="">
+                        </div>
+                        <div>
+                            <img src="imagenes/iconosHab/102.png" alt="">
+                            <img src="imagenes/iconosHab/103.png" alt="">
+                        </div>
+                    </div> 
+                    <div class="ubicarAbajo">
+                        <div class="tituloCajaHab">
+                            <h2>BACK-END</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="div3">
+                    <div class="centrarSoft">
+                        <div class="iconos software">
+                            <div>
+                                <img src="imagenes/iconosHab/adobe-photoshop-logo.png" alt="">
+                                <img src="imagenes/iconosHab/figma_logo 1.png" alt="">    
+                            </div>
+                            <div>
+                                <img src="imagenes/iconosHab/Illustrator-Logo.png" alt="">
+                                <img src="imagenes/iconosHab/graphic-designer-and-web-design-studio-tool-logo-free-vector.png" alt="">    
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="ubicarAbajo">
+                        <div class="tituloCajaHab">
+                            <h2>SOFTWARE</h2>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+        
+    </section>
+    <section  id="proyectos">
         <div id="trabajos" class="cajaTrabajos">
-            <section data-aos="fade-up" id="trabajos">
+            <section id="trabajos">
                 <h1 class="Trab">Trabajos</h1>
                 <br>
-                <input type="radio" name="filtro" id="DesarrolloWeb">
+                <input type="radio" name="filtro" id="DesarrolloWeb" checked>
                 <input type="radio" name="filtro" id="diseñoGrafico">
-                <input style="display: none;" type="radio" name="filtro" id="edicionVideos">
 
                 <div style="display: flex; justify-content: center;">
                     <div class="cajaLABEL"><label class="label" for="DesarrolloWeb">Desarrollo Web</label></div>
 
                     <div class="cajaLABEL"><label class="label" for="diseñoGrafico">Diseño grafico</label></div>
-
-                    <div class="cajaLABEL"><label class="label" for="edicionVideos">Edición de videos</label></div>
                 </div>
-
-
-
 
                 <div data-aos="fade-down" class="conteCarrousel" id="DiseñoG">
                     <div class="bloque1">
@@ -630,131 +578,59 @@
                     </div>
                     <br>
                 </div>
-                <div class="conteCarrousel" id="desarrolloW">
-                    <!-- Tercer = web -->
-                    <br>
-                    <div class="angry-grid3-W">
-                        <div id="item-18-W">
-                            <img class="imagen" src="imagenes/trabajos/diseño web/finanza.webp" alt="Página finanzas">
-                            <div class="fondo">
-                                <h2 class="titulo">Página finanzas(Trabajando)</h2>
-                                <p class="desc">Una página de ejemplo donde se pueden intercambiar monedas, convirtiendo
-                                    la moneda
-                                    argentina a otras monedas como el dólar, euro, etc.</p>
-
-                                <div style="display: flex; margin-top: 20px;">
-                                    <img style="margin-left: 15px; width: 20px; height: 20px;"
-                                        src="imagenes/Lenguajes/png/CSS.webp" alt="icono CSS">
-                                    <img style="margin-left: 15px; width: 20px; height: 20px;"
-                                        src="imagenes/Lenguajes/png/HTML5_logo_and_wordmark.webp" alt="icono HTML">
-                                    <img style="margin-left: 15px; width: 30px; height: 20px;"
-                                        src="imagenes/Lenguajes/png/PHP-logo.webp" alt="icono PHP">
-                                    <img style="margin-left: 15px; width: 40px; height: 20px;"
-                                        src="imagenes/Lenguajes/png/MySQL-logo.webp" alt="icono MySQL">
-                                </div>
-                                <div style="display: flex; margin-top: 50px; margin-left: 10px;">
-
-                                    <a href="https://acortar.link/BtDAZG"><button class="botonVD">VER
-                                            DISEÑO</button></a>
-                                </div>
+                <div id="centrarTodoProy" class="centrarTodoProy">
+                    <div class="izquierda">
+                        <div data-aos="fade-left" class="imagencja">
+                            <img src="imagenes/trabajos/diseño web/Prueba.png" alt="">
+                        </div>
+                        <div data-aos="fade-left" class="imagencja">
+                            <div class="titColImgcj"><h2>AMERICAN LATIN STORIES PAGE</h2></div>
+                            <div><p>Fuimos contratados para crear la página web de un videojuego inspirado en historias de terror y misterio del folclore latino americano. El diseño buscaba transmitir una atmósfera oscura y envolvente. Aunque el juego nunca llegó a lanzarse, se logro hacer el diseño de la pagina web.</p></div>
+                            <div class="tecnologiasUsadas">
+                                <img class="iconoHabUt" src="imagenes/iconosHab/figma_logo 1.png" alt="">
+                            </div>
+                            <div>
+                                <button>VER DISEÑO</button>
                             </div>
                         </div>
-
-                        <div id="item-19-W">
-                            <img class="imagen" style="object-fit: cover;"
-                                src="imagenes/trabajos/diseño web/hambur.webp" alt="Menu web">
-                            <div class="fondo">
-                                <h2 class="titulo">Menu web</h2>
-                                <p class="desc">Una página web realizada para mostrar un menu web diseño en figma.
-                                </p>
-
-
-                                <div style="display: flex; margin-top: 50px; margin-left: 10px;">
-                                    <a href="https://acortar.link/LP88CX"><button class="botonVD">VER
-                                            DISEÑO</button></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="item-20-W">
-                            <img class="imagen" src="imagenes/trabajos/diseño web/Prueba.webp" alt="Página web prueba">
-                            <div class="fondo">
-                                <h2 class="titulo">Pagina web prueba</h2>
-                                <p class="desc">Una página web realizada como prueba para un trabajo, debido a que la
-                                    publicación de trabajo se eliminó, la página no la terminamos, faltaría el backend.
-                                </p>
-
-                                <div style="display: flex; margin-top: 20px;">
-                                    <img style="margin-left: 15px; width: 20px; height: 20px;"
-                                        src="imagenes/Lenguajes/png/CSS.webp" alt="icono CSS">
-                                    <img style="margin-left: 15px; width: 20px; height: 20px;"
-                                        src="imagenes/Lenguajes/png/HTML5_logo_and_wordmark.webp" alt="icono HTML">
-                                </div>
-                                <div style="display: flex; margin-top: 50px; margin-left: 10px; position: absolute;">
-                                    <a href="https://comforting-khapse-39a7ff.netlify.app/"><button class="botonVP">VER
-                                            PAGINA</button></a>
-                                </div>
-                            </div>
-                        </div>
-
-
+                        <div data-aos="fade-left" class="imagencja"> <img style="object-fit: cover;" src="imagenes/trabajos/diseño web/hambur.png" alt=""></div>
                     </div>
-                    <div class="angry-grid3-W" style="margin-top: 20px;">
-               
-                        <div id="item-21-W">
-                            <img class="imagen" src="imagenes/trabajos/diseño web/Desktop - 1 (4).png"
-                                alt="Página Arbovita">
-                            <div class="fondo">
-                                <h2 class="titulo">Pagina Juego</h2>
-                                <p class="desc">Contratación para hacer la pagina de un videojuego que al final nunca
-                                    salio.</p>
-
-                                <div style="display: flex; margin-top: 20px;">
-                                    <img style="margin-left: 15px; width: 20px; height: 20px;"
-                                        src="imagenes/Lenguajes/png/CSS.webp" alt="icono CSS">
-                                    <img style="margin-left: 15px; width: 20px; height: 20px;"
-                                        src="imagenes/Lenguajes/png/HTML5_logo_and_wordmark.webp" alt="icono HTML">
-                                </div>
-                                <div style="display: flex; margin-top: 50px; margin-left: 10px; position: absolute;">
-                                    <a href=""><button class="botonVP">TRABAJANDO</button></a>
-                                    <a href="https://acortar.link/QS8E1D"><button class="botonVD">VER
-                                            DISEÑO</button></a>
-                                </div>
+        
+                    <div class="line-container">
+                        <div class="vertical-line"></div>
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                      </div>
+                    <div  class="derecha">
+                        <div  data-aos="fade-right" class="imagencja">
+                            <div class="titColImgcj"><h2>PAGINA WEB PRUEBA</h2></div>
+                            <div><p>Una página web realizada como prueba para un trabajo, debido a que la publicación de trabajo se eliminó, la página no la terminamos, faltaría el backend.</p></div>
+                            <div class="tecnologiasUsadas">
+                                <img class="iconoHabUt" src="imagenes/iconosHab/HTML5_logo_and_wordmark.png" alt="">
+                                <img class="iconoHabUt" src="imagenes/iconosHab/CSS.png" alt="">
+                            </div>
+                            <div>
+                                <button class="btnVD">VER DISEÑO</button> 
+                                <button class="botonVP">VER PAGINA</button>
                             </div>
                         </div>
-
+                        <div  data-aos="fade-right" class="imagencja"><img src="imagenes/trabajos/diseño web/Desktop - 1 (4).png" alt=""></div>
+                        <div  data-aos="fade-right" class="imagencja">
+                            <div class="titColImgcj"><h2>MENU WEB</h2></div>
+                            <div><p>Una página web realizada para mostrar un menu web diseño en figma.</p></div>
+                            <div class="tecnologiasUsadas">
+                                <img class="iconoHabUt" src="imagenes/iconosHab/figma_logo 1.png" alt="">
+                            </div>
+                            <div>
+                                <button>VER DISEÑO</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="conteCarrousel" id="edicion">
-                    <!-- Tercer = web -->
-                    <br>
-                    <div class="angry-grid3">
-                        <div id="item-18">
-                            <video title="Secmento" style="width: 100%; height: 100%;" controls
-                                src="videos/sec.mp4"></video>
-                        </div>
 
-                        <div id="item-19">
-                            <video title="Belgrano cosmetica" style="width: 100%; height: 100%;" controls
-                                src="videos/belgrano.mp4"></video>
-                        </div>
-
-                        <div id="item-20">
-                            <video title="Messi Entrevista" style="width: 100%; height: 100%;" controls
-                                src="videos/messi.mp4"></video>
-                        </div>
-                    </div>
-                    <div class="angry-grid3" style="margin-top: 50px;">
-                        <div id="item-212">
-                            <video title="Fortnite meme" style="width: 100%; height: 100%;" controls
-                                src="videos/fort.mp4"></video>
-                        </div>
-                    </div>
-                    <div style="margin-top: 20px;" class="cajaVer"><a style="text-decoration: none; color: black;"
-                            href="https://acortar.link/an0gQ5" class="cajaVerMas" style="color:rgb(0, 0, 0)">VER MAS</a>
-                    </div>
-                </div>
-                <br>
                 <div class="responsiveTrabajos">
                     <div class="responsiveD">
                         <div class="cajaVer"><a style="text-decoration: none; color: black;"
@@ -990,7 +866,6 @@
                                     logo), diseñado en Photoshop.</p>
                             </div>
                         </div>
-
                     </div>
                     <h2 class="tituloResp">PAGINAS WEB</h2>
                     <div class="responsiveTrabajos">
@@ -1039,183 +914,54 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-        </div>
-
-    </section>
-    <section id="valoraciones">
-        <h2 style="color:white; margin-top: 30px; margin-bottom: 20px;">Valoraciones</h2>
-        <div class="comentarios">
-            <div class="cajaVal">
-                <p style="margin: 10px; margin-bottom: 0px; color:white">Excelente comunicación, Muy profesional y
-                    atento. Un trabajo muy recomendable.</p>
-                <div class="conjuntoLet"
-                    style="margin-left: 20px; margin-top: -28px; height: 87%; display: flex; align-items: end;">
-                    <div class="imgagen"><img class="imgagen" src="imagenes/trabajos/Perfiles/Gabriel.webp"
-                            style="width: 100%; height: 100%;" alt="FotoPerfil"></div>
-                    <div style="margin-left: 10px;">
-                        <h3>Gabriel G.</h3>
-                        <p>PPT</p>
-                    </div>
-
-                </div>
-
-            </div>
-            <div class="cajaVal">
-                <p style="margin: 10px; color:white">Recomiendo altamente a Laureano para cualquier proyecto de diseño.
-                    Su habilidad
-                    para captar la esencia de una marca y transformarla en arte visual es incomparable. Siempre es
-                    puntual en sus entregas y su trabajo es sumamente efectivo en lograr los objetivos. Un profesional
-                    de primer nivel.</p>
-                <div class="conjuntoLet2"
-                    style="margin-left: 20px; margin-top: -15px; height: 53%; display: flex; align-items: end;">
-                    <div class="imgagen"><img class="imgagen" src="imagenes/trabajos/Perfiles/b.webp"
-                            style="width: 100%; height: 100%;" alt="FotoPerfil"></div>
-                    <div style="margin-left: 10px;">
-                        <h3>Juan Carlos</h3>
-                        <p>Diseño Brochure</p>
-                    </div>
-
-                </div>
-
-            </div>
-            <div class="cajaVal">
-                <p style="margin: 10px; color:white">La disponibilidad y calidad es Impecable, mucha disposicion para
-                    diseñar y
-                    resolver lo solicitado</p>
-                <div class="conjuntoLet"
-                    style="margin-left: 20px; margin-top: -15px; height: 83%; display: flex; align-items: end;">
-                    <div class="imgagen"><img class="imgagen" src="imagenes/trabajos/Perfiles/fotoP.webp"
-                            style="width: 100%; height: 100%;" alt="FotoPerfil"></div>
-                    <div style="margin-left: 10px;">
-                        <h3>Luis P</h3>
-                        <p>Diseño Folleto</p>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-        <div class="responsiveTrabajos">
-            <div id="carousel">
-                <div class="item2">
-                    <div class="cajaVal">
-                        <p style="margin: 10px; color:white">La disponibilidad y calidad es Impecable, mucha disposicion
-                            para diseñar y
-                            resolver lo solicitado</p>
-                        <div class="conjuntoLet"
-                            style="margin-left: 20px; margin-top: -15px; height: 83%; display: flex; align-items: end;">
-                            <div class="imgagen"><img class="imgagen" src="imagenes/trabajos/Perfiles/fotoP.webp"
-                                    style="width: 100%; height: 100%;" alt="FotoPerfil"></div>
-                            <div style="margin-left: 10px;">
-                                <h3>Luis P</h3>
-                                <p>Diseño Folleto</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="item2">
-                    <div class="cajaVal">
-                        <p style="margin: 10px; color:white">Recomiendo altamente a Laureano para cualquier proyecto de
-                            diseño. Su habilidad
-                            para captar la esencia de una marca y transformarla en arte visual es incomparable. Siempre
-                            es
-                            puntual en sus entregas y su trabajo es sumamente efectivo en lograr los objetivos. Un
-                            profesional
-                            de primer nivel.</p>
-                        <div class="conjuntoLet2"
-                            style="margin-left: 20px; margin-top: -15px; height: 53%; display: flex; align-items: end;">
-                            <div class="imgagen"><img class="imgagen" src="imagenes/trabajos/Perfiles/b.webp"
-                                    style="width: 100%; height: 100%;" alt="FotoPerfil"></div>
-                            <div style="margin-left: 10px;">
-                                <h3>Juan Carlos P.</h3>
-                                <p>Diseño Brochure</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="item2">
-                    <div class="cajaVal">
-                        <p style="margin: 10px; color:white">La disponibilidad y calidad es Impecable, mucha disposicion
-                            para
-                            diseñar y
-                            resolver lo solicitado</p>
-                        <div class="conjuntoLet"
-                            style="margin-left: 20px; margin-top: -15px; height: 83%; display: flex; align-items: end;">
-                            <div class="imgagen"><img class="imgagen" src="imagenes/trabajos/Perfiles/Gabriel.webp"
-                                    style="width: 100%; height: 100%;" alt="FotoPerfil"></div>
-                            <div style="margin-left: 10px;">
-                                <h3>Gabriel G.</h3>
-                                <p>PPT</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
-    <div style="background-color: black; width: 100%; height: 70px;">
-
-    </div>
-    <section id="Contactar">
-        <div class="justi">
-            <div id="contacto">
-                <div class="cajaContacto">
-                    <div class="sobrenosotrostext">
-                        <div>
-                            <h2 class="tituloContac">CONTACTAR</h2>
-                            <hr class="dos"><br>
-                            <form action="https://formsubmit.co/laureanofurno@gmail.com" method="post">
-                                <input class="asunto" type="text" placeholder="ASUNTO:" name="asunto"><br>
-                                <input class="nombre" type="text" placeholder="NOMBRE" name="nombre"><br>
-                                <input class="email" type="email" placeholder="EMAIL" name="email"><br>
-                                <input class="mensaje" type="text" placeholder="MENSAJE" name="mensaje"><br>
-                                <input class="botonFrom" type="submit" value="Enviar" name="submit">
-                            </form>
-                        </div>
-                        <div class="iconoss">
-                            <div class="iconoFondo">
-                                <a class="icono1" href="https://www.facebook.com/profile.php?id=100087645721474"
-                                    aria-label="facebook voxaive"><i class="fa fa-facebook"></i></a>
-                            </div>
-                            <div class="iconoFondo2">
-                                <a class="icono1" href="https://www.instagram.com/voxaive/"
-                                    aria-label="instagram voxaive"><i class="fa fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
+    </section>
+    <section id="contactar">
+        <div class="cajaContactar">
+            <div class="colorCaja">
+                <div class="sd">
+                    <h2 class="contH">CONTACTAR</h2>
+                    <input placeholder="EMAIL" type="email">
+                    <input placeholder="NOMBRE Y APELLIDO" type="text">
+                    <input placeholder="MENSAJE" class="textoG" type="text">
+                    <button>ENVIAR</button>
                 </div>
             </div>
         </div>
+        <div class="division">
+            <div class="cajaJuntar">
+                <hr  style="margin-right:20px;">
+                <div class="circCh"></div>
+                <hr style="margin-left:20px;">
+            </div>
+        </div>
+
+        <footer class="contactoInf">
+            <div>
+                <ul>
+                    <h3>SECCIONES</h3>
+                    <li><a href="">INICIO</a></li>
+                    <li><a href="">SOBRE NOSOTROS</a></li>
+                    <li><a href="">HABILIDADES</a></li>
+                    <li><a href="">PROYECTOS</a></li>
+                    <li><a href="">CONTACTAR</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <h3>CONTACTOS</h3>
+                    <li><p>EMAIL:voxaive@gmail.com</p></li>
+                </ul>
+            </div>
+        </footer>
     </section>
-
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PNQBR8488W"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-PNQBR8488W');
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script>
         AOS.init();
     </script>
-    <script src="js/index.js"></script>
+    <script src="index.js"></script>
 </body>
-
 </html>
