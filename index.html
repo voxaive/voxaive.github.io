@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <section id="inicio">
+        <header id="header">
+            <div class="contenedorH"> 
+                <div class="iconosD">
+                    <div class="icono"><img src="imagenes/logo.png" alt=""></div>
+                    <i><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6s9.6-4.298 9.6-9.6S15.302.4 10 .4M7.65 13.979H5.706V7.723H7.65zm-.984-7.024c-.614 0-1.011-.435-1.011-.973c0-.549.409-.971 1.036-.971s1.011.422 1.023.971c0 .538-.396.973-1.048.973m8.084 7.024h-1.944v-3.467c0-.807-.282-1.355-.985-1.355c-.537 0-.856.371-.997.728c-.052.127-.065.307-.065.486v3.607H8.814v-4.26c0-.781-.025-1.434-.051-1.996h1.689l.089.869h.039c.256-.408.883-1.01 1.932-1.01c1.279 0 2.238.857 2.238 2.699z"/></svg></i>
+                    <i><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M13 10a3 3 0 1 1-6 0q.001-.257.049-.5H6v3.997c0 .278.225.503.503.503h6.995a.503.503 0 0 0 .502-.503V9.5h-1.049q.048.243.049.5m-3 2a2 2 0 1 0-.001-4.001A2 2 0 0 0 10 12m2.4-4.1h1.199a.3.3 0 0 0 .301-.3V6.401a.3.3 0 0 0-.301-.301H12.4a.3.3 0 0 0-.301.301V7.6c.001.165.136.3.301.3M10 .4A9.6 9.6 0 0 0 .4 10a9.6 9.6 0 0 0 9.6 9.6a9.6 9.6 0 0 0 9.6-9.6A9.6 9.6 0 0 0 10 .4m5 13.489C15 14.5 14.5 15 13.889 15H6.111C5.5 15 5 14.5 5 13.889V6.111C5 5.5 5.5 5 6.111 5h7.778C14.5 5 15 5.5 15 6.111z"/></svg></i>
+                    <i><svg  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 91.38"><defs></defs><title>freelancer</title><path class="cls-1" d="M72.19,0l8.37,11.74L122.88,0Zm-44,91.38L51.08,69,37.3,54.19,28.18,91.38ZM68.7,0,56.46,11l20.59.77L68.7,0ZM21.11,0l4.42,9,24.23,1.51L21.11,0Zm13,46.73L52,13.33,0,10.52,34.09,46.73Zm2.08,2.11L53.08,67,71.73,48.72l5.79-34L54.79,13.51,36.17,48.84Zm0,0Z"/></svg></i>    
+                </div>
+                <ul class="ulNoResp">
+                    <li class="listS"><a href="#inicio">INICIO</a></li>
+                    <li class="listS"><a href="#about">SOBRE NOSOTROS</a></li>
+                    <li class="listS"><a href="#habilidades">HABILIDADES</a></li>
+                    <li class="listS"><a href="#">PROYECTOS</a></li>
+                    <li class="listS"><a href="#contactar">CONTACTAR</a></li>
+                </ul>
+            </div>
+            <nav class="cajaMenuRep">
+                <input type="checkbox" id="checkMenRep">
+                <label for="checkMenRep" class="checkbtnRep">
+                    <i id="abrir" class="material-symbols-outlined">
+                        ☰
+                    </i>
+                </label>
+                <ul id="ulREP">
+                    <li><a class="active" href="#inicio">INICIO</a></li>
+                    <li><a href="#about">SOBRE NOSOTROS</a></li>
+                    <li><a href="#habilidades">HABILIDADES</a></li>
+                    <li><a href="#valoraciones">PROYECTOS</a></li>
+                    <li><a href="#contactar">CONTACTAR</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="sa">
+            <div class="contenedorH">
+                <div data-aos="fade-right" data-aos-duration="1500" class="barraTit">
+                    <h3>VOXAIVE</h3>
+                    <h1>INNOVACIONES <span class="colorVerd">TECNOLÓGICAS</span></h1>
+                    <p>Más que una<span class="colorVerd"> página web</span>: un sentimiento que refleja el corazón y el alma de cada<span class="colorVerd"> empresa</span>.</p>
+                    <div class="cajaCONTACTOHE">
+                        <button>CONTACTAR</button> 
+                        <div class="iconosConBan">
+                            <i><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6s9.6-4.298 9.6-9.6S15.302.4 10 .4M7.65 13.979H5.706V7.723H7.65zm-.984-7.024c-.614 0-1.011-.435-1.011-.973c0-.549.409-.971 1.036-.971s1.011.422 1.023.971c0 .538-.396.973-1.048.973m8.084 7.024h-1.944v-3.467c0-.807-.282-1.355-.985-1.355c-.537 0-.856.371-.997.728c-.052.127-.065.307-.065.486v3.607H8.814v-4.26c0-.781-.025-1.434-.051-1.996h1.689l.089.869h.039c.256-.408.883-1.01 1.932-1.01c1.279 0 2.238.857 2.238 2.699z"/></svg></i>
+                            <i><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M13 10a3 3 0 1 1-6 0q.001-.257.049-.5H6v3.997c0 .278.225.503.503.503h6.995a.503.503 0 0 0 .502-.503V9.5h-1.049q.048.243.049.5m-3 2a2 2 0 1 0-.001-4.001A2 2 0 0 0 10 12m2.4-4.1h1.199a.3.3 0 0 0 .301-.3V6.401a.3.3 0 0 0-.301-.301H12.4a.3.3 0 0 0-.301.301V7.6c.001.165.136.3.301.3M10 .4A9.6 9.6 0 0 0 .4 10a9.6 9.6 0 0 0 9.6 9.6a9.6 9.6 0 0 0 9.6-9.6A9.6 9.6 0 0 0 10 .4m5 13.489C15 14.5 14.5 15 13.889 15H6.111C5.5 15 5 14.5 5 13.889V6.111C5 5.5 5.5 5 6.111 5h7.778C14.5 5 15 5.5 15 6.111z"/></svg></i>
+                            <i><svg  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 91.38"><defs></defs><title>freelancer</title><path class="cls-1" d="M72.19,0l8.37,11.74L122.88,0Zm-44,91.38L51.08,69,37.3,54.19,28.18,91.38ZM68.7,0,56.46,11l20.59.77L68.7,0ZM21.11,0l4.42,9,24.23,1.51L21.11,0Zm13,46.73L52,13.33,0,10.52,34.09,46.73Zm2.08,2.11L53.08,67,71.73,48.72l5.79-34L54.79,13.51,36.17,48.84Zm0,0Z"/></svg></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="la"></div>
+            </div>
+        </div>
+        <div class="division">
+            <div class="cajaJuntar">
+                <hr data-aos="fade-right"  style="margin-right:20px;">
+                <div class="circCh"></div>
+                <hr data-aos="fade-left" style="margin-left:20px;">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="general">
+            <div style="width: 100%;">
+                <div class="conjunto">
+                    <div class="conjuntoIzq">
+                        <div class="decoracionIzq">
+                            <div data-aos="fade-down"  class="circDecoIzq"></div>
+                            <div data-aos="fade-down"  class="cajaS"></div>
+                        </div>
+                        <div class="cuadradoVerde"></div>
+                    </div>
+                    <div class="SobreNosotros">
+                        <h2 class="TITULOSob">SOBRE NOSOTROS</h2>
+                        <div class="decoracionDer">
+                            <div data-aos="fade-right" class="circDecoIzq"></div>
+                            <div data-aos="fade-right" class="cajaS2"></div>
+                        </div>
+                        <p>Voxaive surgió como un proyecto impulsado por cuatro jóvenes estudiantes de una institución especializada en computación. En la actualidad, nuestro equipo está compuesto por diez personas que ofrecen sus servicios como freelancers, dedicados al diseño gráfico, edición de videos y desarrollo web.</p>
+                        <div class="superpuesto">
+                            <div class="cajaHabilidades">
+                                <span style="display: flex; justify-content: center; margin-top: 20px; font-size: 100px; color:white;"
+                                class="material-symbols-outlined">
+                                draw
+                            </span>
+                                <p class="textoHabilidades">Somos tu aliado en diseño gráfico. Desde identidades visuales únicas hasta materiales impresos y digitales impactantes, nuestro equipo crea soluciones visuales que destacan. Haz brillar tu marca con nuestra creatividad y experiencia en diseño gráfico.</p>
+                            </div>
+                            <div class="cajaHabilidades">
+                                <span style="display: flex; justify-content: center; margin-top: 20px; font-size: 100px; color: white;"
+                                class="material-symbols-outlined">
+                                devices
+                            </span>
+                                <p class="textoHabilidades">Expertos en
+                                    diseño web. Creamos experiencias digitales que cautivan. Desde sitios dinámicos hasta
+                                    interfaces intuitivas, nuestro equipo da vida a tu presencia online. Descubre cómo nuestra
+                                    creatividad en diseño web puede impulsar tu marca.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <div class="habTitCaja">
+            <h2>HABILIDADES</h2>
+        </div>
+
+            <div class="parent">
+                <div class="div1">
+                    <div class="iconos">
+                        <img src="imagenes/iconosHab/HTML5_logo_and_wordmark.png" alt="">
+                        <img src="imagenes/iconosHab/CSS.png" alt="">
+                        <img src="imagenes/iconosHab/Bootstrap_logo.png" alt="">
+                    </div>    
+                    <div class="ubicarAbajo">
+                        <div class="tituloCajaHab">
+                            <h2>FRONT-END</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="div2"> 
+                    <div class="iconos">
+                        <div>
+                            <img src="imagenes/iconosHab/MySQL-logo.png" alt="">
+                            <img src="imagenes/iconosHab/Postgresql_elephant.png" alt="">
+                        </div>
+                        <div>
+                            <img src="imagenes/iconosHab/102.png" alt="">
+                            <img src="imagenes/iconosHab/103.png" alt="">
+                        </div>
+                    </div> 
+                    <div class="ubicarAbajo">
+                        <div class="tituloCajaHab">
+                            <h2>BACK-END</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="div3">
+                    <div class="centrarSoft">
+                        <div class="iconos software">
+                            <div>
+                                <img src="imagenes/iconosHab/adobe-photoshop-logo.png" alt="">
+                                <img src="imagenes/iconosHab/figma_logo 1.png" alt="">    
+                            </div>
+                            <div>
+                                <img src="imagenes/iconosHab/Illustrator-Logo.png" alt="">
+                                <img src="imagenes/iconosHab/graphic-designer-and-web-design-studio-tool-logo-free-vector.png" alt="">    
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="ubicarAbajo">
+                        <div class="tituloCajaHab">
+                            <h2>SOFTWARE</h2>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+        
+    </section>
+    <section  id="proyectos">
+        <div id="trabajos" class="cajaTrabajos">
+            <section id="trabajos">
+                <h1 class="Trab">Trabajos</h1>
+                <br>
+                <input type="radio" name="filtro" id="DesarrolloWeb" checked>
+                <input type="radio" name="filtro" id="diseñoGrafico">
+
+                <div style="display: flex; justify-content: center;">
+                    <div class="cajaLABEL"><label class="label" for="DesarrolloWeb">Desarrollo Web</label></div>
+
+                    <div class="cajaLABEL"><label class="label" for="diseñoGrafico">Diseño grafico</label></div>
+                </div>
+
+                <div data-aos="fade-down" class="conteCarrousel" id="DiseñoG">
+                    <div class="bloque1">
+
+                        <input type="radio" name="filtro" id="FLYERS">
+                        <input type="radio" name="filtro" id="REDES">
+                        <input type="radio" name="filtro" id="BROCHURES">
+                        <input type="radio" name="filtro" id="PORTADAS">
+
+                        <div style="width: 100%; height: 2px; background-color: white; margin-top: 60px;"></div>
+                        <ul style="padding: 0px; list-style: none; display: flex; justify-content: space-around;">
+
+                            <li class="liDG"><label for="FLYERS">FLYERS Y STANDS
+                                    <hr class="selector" style="margin: 0;">
+                                </label>
+
+                            </li>
+                            <li class="liDG"><label for="REDES">INSTAGRAM Y REDES SOCIALES
+                                    <hr class="selector" style="margin: 0;">
+                                </label></li>
+                            <li class="liDG"><label for="BROCHURES">
+                                    BROCHURES
+                                    <hr class="selector" style="margin: 0;">
+                                </label></li>
+                            <li class="liDG"><label for="PORTADAS">
+                                    PORTADAS YOUTUBE
+                                    <hr class="selector" style="margin: 0;">
+                                </label></li>
+                        </ul>
+                        <div id="FLYERS-STANDS">
+                            <h2 style="margin-top: 70px; color:white">RELACIONADOS A LA AGRICULTURA</h2>
+                            <div class="angry-grid">
+                                <div id="item-0">
+                                    <img class="imagen"
+                                        src="imagenes/trabajos/agroecologia/AnyConv.com__nuevo de ganado.webp"
+                                        alt="Flyer sobre ganaderia">
+                                    <div class="fondo">
+                                        <h2 class="titulo">Flyer sobre ganadería</h2>
+                                        <p class="desc">En este trabajo de diseño gráfico realizamos un flyer sobre la
+                                            ganadería
+                                            para un evento.</p>
+                                    </div>
+                                </div>
+
+                                <div id="item-1">
+                                    <img class="imagen" src="imagenes/trabajos/agroecologia/ana.webp" alt="Expositor">
+                                    <div class="fondo">
+                                        <h2 class="titulo">Expositor ExpoAgro</h2>
+                                        <p class="desc">Expositor de un evento en chile llamado AgroExpo(AOA)</p>
+                                    </div>
+                                </div>
+
+                                <div id="item-2"><img class="imagen"
+                                        src="imagenes/trabajos/agroecologia/tecnologia-2.webp"
+                                        alt="Flyer sobre tecnología">
+                                    <div class="fondo">
+                                        <h2 class="titulo">Flyer sobre tecnología</h2>
+                                        <p class="desc">En este caso creamos un flyer para promocionar un área en un
+                                            evento
+                                            agroecológico en chile. </p>
+                                    </div>
+                                </div>
+                                <div id="item-3"><img class="imagen"
+                                        src="imagenes/trabajos/agroecologia/AnyConv.com__fruti2.webp"
+                                        alt="Flyer sobre fruticultura">
+                                    <div class="fondo">
+                                        <h2 class="titulo">Flyer insumos organicos</h2>
+                                        <p class="desc">Un flyer realizado para un evento agroecológico en chile, se
+                                            trata
+                                            de
+                                            promocionar productos orgánicos. </p>
+                                    </div>
+                                </div>
+                                <div id="item-4"><img class="imagen" src="imagenes/trabajos/agroecologia/po.webp"
+                                        alt="expositor">
+                                    <div class="fondo">
+                                        <h2 class="titulo">Stand CUVAS 80x80</h2>
+                                        <p class="desc">Stand realizado para un evento en Chile. Trata sobre vinos.</p>
+                                    </div>
+                                </div>
+                                <div id="item-5"><img class="imagen"
+                                        src="imagenes/trabajos/alimentos/cuevas de ninhue.webp" alt="expositor">
+                                    <div class="fondo">
+                                        <h2 class="titulo">Stand CUVAS</h2>
+                                        <p class="desc">Stand realizado para un evento en Chile. Trata sobre vinos.</p>
+                                    </div>
+                                </div>
+                                <div id="item-6"><img class="imagen" src="imagenes/trabajos/alimentos/465shots_so.webp"
+                                        alt="Flyer apicultura">
+                                    <div class="fondo">
+                                        <h2 class="titulo">STAND COOCEPA 80X80</h2>
+                                        <p class="desc">Vinos de la marca COOCEPA. Hecho para un evento en Chile.</p>
+                                    </div>
+                                </div>
+                                <div id="item-7"><img class="imagen" src="imagenes/trabajos/alimentos/894shots_so.webp"
+                                        alt="Flyer insumos organicos">
+                                    <div class="fondo">
+                                        <h2 class="titulo">Flyer Vinos</h2>
+                                        <p class="desc">Un flyer realizado para un evento agroecológico en chile, se
+                                            trata
+                                            de
+                                            promocionar Vinos de una marca. </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="angry-grid2">
+                                <div id="item-9">
+                                    <img class="imagen" src="imagenes/trabajos/alimentos/flyerbebidas_4_11zon.webp"
+                                        alt="Stand CUVAS">
+                                    <div class="fondo">
+                                        <h2 class="titulo">FLYER BEBIDAS</h2>
+                                        <p class="desc">Un flyer de bebidas realizado como prueba para un puesto
+                                            laboral.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div id="item-10">
+                                    <img class="imagen" src="imagenes/trabajos/alimentos/av.webp" alt="Flyer BEBIDAS">
+                                    <div class="fondo">
+                                        <h2 class="titulo">Flyer apicultura</h2>
+                                        <p class="desc">Un flyer orientado a la apicultura, se realizó para un evento
+                                            agroecológico en chile.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div id="item-11">
+                                    <img class="imagen" src="imagenes/trabajos/alimentos/188shots_so.webp"
+                                        alt="Stand CUVAS">
+                                    <div class="fondo">
+                                        <h2 class="titulo">Stand COOCPEA</h2>
+                                        <p class="desc">Stand realizado para un evento en Chile. Trata sobre vinos.</p>
+                                    </div>
+
+                                </div>
+                                <div id="item-12">
+                                    <img class="imagen" src="imagenes/trabajos/agroecologia/comercializacion-2.webp"
+                                        alt="Stand COOCEPA">
+                                    <div class="fondo">
+                                        <h2 class="titulo">Stand MORAREYES 80X80</h2>
+                                        <p class="desc">Vinos de la marca MORAREYES. Hecho para un evento en Chile.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <br><br>
+                            <input type="checkbox" name="filtro" id="verMas">
+
+                            <!-- Segundo alimentos -->
+                            <div data-aos="fade-up" id="bloque2">
+                                <h2 style="color:white">MOCKUPS</h2>
+                                <div class="angry-grid4">
+                                    <div id="item-21">
+                                        <img class="imagen" src="imagenes/trabajos/mockups/Remera-negra-diseño1.webp"
+                                            alt="Camiseta AOA(Negro)">
+                                        <div class="fondo">
+                                            <h2 class="titulo">Camiseta AOA(Negro)</h2>
+                                            <p class="desc">Edición de camiseta color Negro con el logo de AOA (Puede
+                                                ser
+                                                también tu
+                                                logo), diseñado en Photoshop.</p>
+                                        </div>
+                                    </div>
+                                    <div id="item-22">
+                                        <img class="imagen" src="imagenes/trabajos/mockups/staffcuerda.webp"
+                                            alt="Correa AOA">
+                                        <div class="fondo">
+                                            <h2 class="titulo">Correa AOA</h2>
+                                            <p class="desc">Edición de distintos tipos de correas con rastro de
+                                                iniciales "AOA",
+                                                diseñado en Photoshop.</p>
+                                        </div>
+                                    </div>
+                                    <div id="item-23">
+                                        <img class="imagen" src="imagenes/trabajos/mockups/AnyConv.com__gafete 2.webp"
+                                            alt="Carnet AOA">
+                                        <div class="fondo">
+                                            <h2 class="titulo">Carnet AOA</h2>
+                                            <p class="desc">Diseño de carnet para eventos con logos de AOA y
+                                                Patrocinadores del
+                                                evento,
+                                                diseñado en Photoshop.</p>
+                                        </div>
+                                    </div>
+                                    <div id="item-24">
+                                        <img class="imagen"
+                                            src="imagenes/trabajos/mockups/AnyConv.com__certificación.webp"
+                                            alt="Certificado AOA">
+                                        <div class="fondo">
+                                            <h2 class="titulo">Certificado AOA</h2>
+                                            <p class="desc">Diseño de certificado para eventos y entrega de diplomas,
+                                                diseñado
+                                                en
+                                                Photoshop.</p>
+                                        </div>
+                                    </div>
+                                    <div id="item-25">
+                                        <img class="imagen" src="imagenes/trabajos/mockups/Gorra-negra.webp"
+                                            alt="Gorra AOA(Negro)">
+                                        <div class="fondo">
+                                            <h2 class="titulo">Gorra AOA(Negro)</h2>
+                                            <p class="desc">Edición de camiseta color Negro con el logo de AOA (Puede
+                                                ser
+                                                también tu
+                                                logo), diseñado en Photoshop.</p>
+                                        </div>
+                                    </div>
+                                    <div id="item-26">
+                                        <img class="imagen" src="imagenes/trabajos/mockups/Gorra-blanca.webp"
+                                            alt="Gorra AOA(Blanca)">
+                                        <div class="fondo">
+                                            <h2 class="titulo">Gorra AOA(Blanca)</h2>
+                                            <p class="desc"> Edición de camiseta color Blanco con el logo de AOA (Puede
+                                                ser
+                                                también tu
+                                                logo), diseñado en Photoshop.</p>
+                                        </div>
+                                    </div>
+
+                                    <div id="item-27">
+                                        <img class="imagen"
+                                            src="imagenes/trabajos/mockups/AnyConv.com__Remera_AOA2.webp"
+                                            alt="Camiseta AOA (Blanca)">
+                                        <div class="fondo">
+                                            <h2 class="titulo">Camiseta AOA (Blanca)</h2>
+                                            <p class="desc">Edición de camiseta color Blanco con el logo de AOA (Puede
+                                                ser
+                                                también tu
+                                                logo), diseñado en Photoshop.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div style="display: flex; width: 100%; justify-content: space-evenly;">
+                                <div class="cajaVer"><label class="cajaVerMas" style="color:rgb(0, 0, 0)"
+                                        for="verMas">VER
+                                        MAS</label></div>
+                                <div class="cajaVer"><a style="text-decoration: none; color: black;"
+                                        href="https://issuu.com/voxaive/docs/portafolio" class="cajaVerMas"
+                                        style="color:rgb(0, 0, 0)">PORTAFOLIO ISSUU</a></div>
+                            </div>
+                        </div>
+                        <div id="REDESSo">
+                            <h2 style="color: white; margin-top: 70px;">CARRUSELES Y POSTEOS</h2>
+                            <div class="angry-grid6">
+                                <div id="item-R1"><img class="imagenR" src="imagenes/trabajos/redes/bloque1/1.webp"
+                                        alt="imagenRedes"></div>
+                                <div id="item-R2"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/bloque1/slider-1.webp" alt="imagenRedes"></div>
+                                <div id="item-R3"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/bloque1/slider-2.webp" alt="imagenRedes"></div>
+                                <div id="item-R4"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/bloque1/slider-3.webp" alt="imagenRedes"></div>
+                                <div id="item-R5"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/bloque1/slider-4.webp" alt="imagenRedes"></div>
+                            </div>
+                            <div style="margin-top: 100px;" class="angry-grid6">
+                                <div id="item-R2-1"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/bloque2/slider1.webp" alt="imagenRedes"></div>
+                                <div id="item-R3-1"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/bloque2/slider2.webp" alt="imagenRedes"></div>
+                                <div id="item-R4-1"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/bloque2/slider3.webp" alt="imagenRedes"></div>
+                                <div id="item-R5-1"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/bloque2/slider4.webp" alt="imagenRedes"></div>
+                                <div id="item-R1-1"><img class="imagenR" src="imagenes/trabajos/redes/bloque2/2.webp"
+                                        alt="imagenRedes"></div>
+                            </div>
+                            <div style="margin-top: 100px;" class="angry-grid6-1">
+                                <div id="item-R1"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/bloque3/publicacionN.webp" alt="imagenRedes"></div>
+                                <div id="item-R2"><img class="imagenR" src="imagenes/trabajos/redes/bloque3/sLIDE1.webp"
+                                        alt="imagenRedes"></div>
+                                <div id="item-R3"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/bloque3/slide21.webp" alt="imagenRedes"></div>
+
+                            </div>
+                            <div style="margin-top: 100px;" class="angry-grid6">
+                                <div id="item-R2-1"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/perla digital/slide1.webp" alt="imagenRedes"></div>
+                                <div id="item-R3-1"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/perla digital/slider2.webp" alt="imagenRedes">
+                                </div>
+                                <div id="item-R4-1"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/perla digital/slider3.webp" alt="imagenRedes">
+                                </div>
+                                <div id="item-R5-1"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/perla digital/SLIDER4.webp" alt="imagenRedes">
+                                </div>
+                                <div id="item-R1-1"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/perla digital/Group-13.webp" alt="imagenRedes">
+                                </div>
+                            </div>
+                            <div class="angry-grid6" style="margin-top: 100px;">
+                                <div id="item-R1"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/asesoria/Group 12.png" alt="imagenRedes"></div>
+                                <div id="item-R2"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/asesoria/slide1.webp" alt="imagenRedes"></div>
+                                <div id="item-R3"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/asesoria/slide2.webp" alt="imagenRedes"></div>
+                                <div id="item-R4"><img class="imagenR"
+                                        src="imagenes/trabajos/redes/asesoria/slide3.webp" alt="imagenRedes"></div>
+                            </div>
+                            <h2 style="color: white; margin-top: 70px;">PORTADAS</h2>
+
+                            <div>
+                                <div class="angry-gridPortadas">
+                                    <div id="item-RP1"><img class="imagenR"
+                                            src="imagenes/trabajos/redes/portadas/client1.webp" alt="imagenRedes"></div>
+                                    <div id="item-RP2"><img class="imagenR"
+                                            src="imagenes/trabajos/redes/portadas/Portada-reel-prueba.webp"
+                                            alt="imagenRedes"></div>
+                                    <div id="item-RP3"><img class="imagenR"
+                                            src="imagenes/trabajos/redes/portadas/prueba3.webp" alt="imagenRedes"></div>
+                                    <div id="item-RP4"><img class="imagenR"
+                                            src="imagenes/trabajos/redes/portadas/prueba4.webp" alt="imagenRedes"></div>
+                                    <div id="item-RP5"><img class="imagenR"
+                                            src="imagenes/trabajos/redes/portadas/Portada_5_11zon.webp"
+                                            alt="imagenRedes"></div>
+                                    <div id="item-RP6"><img class="imagenR"
+                                            src="imagenes/trabajos/redes/portadas/Tapa.webp" alt="imagenRedes"></div>
+                             
+                                    <div id="item-RP7"><img class="imagenR"
+                                            src="imagenes/trabajos/redes/portadas/tel.webp" alt="imagenRedes"></div>
+                                    <div id="item-RP8"><img class="imagenR"
+                                            src="imagenes/trabajos/redes/portadas/tel2.webp"
+                                            alt="imagenRedes"></div>
+                                    <div id="item-RP9"><img class="imagenR"
+                                            src="imagenes/trabajos/redes/portadas/portadareel.webp" alt="imagenRedes"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="BROCHUR">
+                            <div style="display: flex;">
+                                <div style="width: 48%; height: 400px;">
+                                    <img style="opacity: 80%; width: 100%; height: 100%;"
+                                        src="imagenes/trabajos/brochures/facturabo.webp" alt="brochure">
+                                    <div class="botonDEVERBROCHURE"><a class="botonBrochures"
+                                            href="https://issuu.com/voxaive/docs/minimal_magazine_template_4">VER
+                                            MUESTRA</a></div>
+                                </div>
+                                <div style="margin-left: 4%; width: 48%; height: 400px;">
+                                    <img style="background-color: aliceblue; opacity: 80%; width: 100%; height: 100%; object-fit: contain;"
+                                        src="imagenes/trabajos/brochures/Folleto.webp" alt="brochure">
+                                    <div class="botonDEVERBROCHURE"><a class="botonBrochures"
+                                            href="https://issuu.com/voxaive/docs/folleto_0e4eea5c7d8726">VER
+                                            MUESTRA</a></div>
+                                </div>
+                            </div>
+                            <div style="display: flex;">
+                                <div style="margin-top: 4%; width: 48%; height: 400px;">
+                                    <img style="background-color: aliceblue; opacity: 80%; width: 100%; height: 100%; object-fit: contain;"
+                                        src="imagenes/trabajos/brochures/Presentación.webp" alt="brochure">
+                                    <div class="botonDEVERBROCHURE"><a class="botonBrochures"
+                                            href="https://issuu.com/voxaive/docs/presentaci_n">VER
+                                            MUESTRA</a></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="PORTADA">
+                            <div style="display: flex;">
+                                <div style="width: 48%; height: 300px;">
+                                    <img style="opacity: 80%; width: 100%; height: 100%; object-fit: contain;"
+                                        src="imagenes/trabajos/youtube/Op1.webp" alt="brochure">
+
+                                </div>
+                                <div style="margin-left: 4%; width: 48%; height: 300px;">
+                                    <img style=" opacity: 80%; width: 100%; height: 100%; object-fit: contain;"
+                                        src="imagenes/trabajos/youtube/op1_v1_Trazo.webp" alt="brochure">
+
+                                </div>
+                            </div>
+                            <div style="display: flex;">
+                                <div style="width: 48%; height: 300px;">
+                                    <img style="opacity: 80%; width: 100%; height: 100%; object-fit: contain;"
+                                        src="imagenes/trabajos/youtube/op2.webp" alt="brochure">
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <div id="centrarTodoProy" class="centrarTodoProy">
+                    <div class="izquierda">
+                        <div data-aos="fade-left" class="imagencja">
+                            <img src="imagenes/trabajos/diseño web/Prueba.png" alt="">
+                        </div>
+                        <div data-aos="fade-left" class="imagencja">
+                            <div class="titColImgcj"><h2>AMERICAN LATIN STORIES PAGE</h2></div>
+                            <div><p>Fuimos contratados para crear la página web de un videojuego inspirado en historias de terror y misterio del folclore latino americano. El diseño buscaba transmitir una atmósfera oscura y envolvente. Aunque el juego nunca llegó a lanzarse, se logro hacer el diseño de la pagina web.</p></div>
+                            <div class="tecnologiasUsadas">
+                                <img class="iconoHabUt" src="imagenes/iconosHab/figma_logo 1.png" alt="">
+                            </div>
+                            <div>
+                                <button>VER DISEÑO</button>
+                            </div>
+                        </div>
+                        <div data-aos="fade-left" class="imagencja"> <img style="object-fit: cover;" src="imagenes/trabajos/diseño web/hambur.png" alt=""></div>
+                    </div>
+        
+                    <div class="line-container">
+                        <div class="vertical-line"></div>
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                      </div>
+                    <div  class="derecha">
+                        <div  data-aos="fade-right" class="imagencja">
+                            <div class="titColImgcj"><h2>PAGINA WEB PRUEBA</h2></div>
+                            <div><p>Una página web realizada como prueba para un trabajo, debido a que la publicación de trabajo se eliminó, la página no la terminamos, faltaría el backend.</p></div>
+                            <div class="tecnologiasUsadas">
+                                <img class="iconoHabUt" src="imagenes/iconosHab/HTML5_logo_and_wordmark.png" alt="">
+                                <img class="iconoHabUt" src="imagenes/iconosHab/CSS.png" alt="">
+                            </div>
+                            <div>
+                                <button class="btnVD">VER DISEÑO</button> 
+                                <button class="botonVP">VER PAGINA</button>
+                            </div>
+                        </div>
+                        <div  data-aos="fade-right" class="imagencja"><img src="imagenes/trabajos/diseño web/Desktop - 1 (4).png" alt=""></div>
+                        <div  data-aos="fade-right" class="imagencja">
+                            <div class="titColImgcj"><h2>MENU WEB</h2></div>
+                            <div><p>Una página web realizada para mostrar un menu web diseño en figma.</p></div>
+                            <div class="tecnologiasUsadas">
+                                <img class="iconoHabUt" src="imagenes/iconosHab/figma_logo 1.png" alt="">
+                            </div>
+                            <div>
+                                <button>VER DISEÑO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="responsiveTrabajos">
+                    <div class="responsiveD">
+                        <div class="cajaVer"><a style="text-decoration: none; color: black;"
+                                href="https://issuu.com/voxaive/docs/portafolio" class="cajaVerMas2"
+                                style="color:rgb(0, 0, 0)">PORTAFOLIO ISSUU</a></div>
+                        <div class="cajaVer"><a style="text-decoration: none; color: black;"
+                                href="https://drive.google.com/drive/folders/1ifzuYhLvdVPBND3yh6gdtyDt8MuB0BhM"
+                                class="cajaVerMas2" style="color:rgb(0, 0, 0)">EDICIÓN DE VIDEOS</a></div>
+                    </div>
+                    <div id="carousel">
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/agroecologia/AnyConv.com__nuevo de ganado.webp"
+                                alt="Flyer sobre ganaderia">
+                            <div class="fondo">
+                                <h2 class="titulo">Flyer sobre ganadería</h2>
+                                <p class="desc">En este trabajo de diseño gráfico realizamos un flyer sobre la
+                                    ganadería
+                                    para un evento.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/agroecologia/r.webp" alt="Expositor">
+                            <div class="fondo">
+                                <h2 class="titulo">Expositor ExpoAgro</h2>
+                                <p class="desc">Publicidad de un expositor de un evento en chile sobre agricultura.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/agroecologia/tecnologia-2.webp"
+                                alt="Flyer sobre tecnología">
+                            <div class="fondo">
+                                <h2 class="titulo">Flyer sobre tecnología</h2>
+                                <p class="desc">En este caso creamos un flyer para promocionar un área en un evento
+                                    agroecológico en
+                                    chile.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/agroecologia/AnyConv.com__fruti2.webp"
+                                alt="Flyer sobre fruticultura">
+                            <div class="fondo">
+                                <h2 class="titulo">Flyer sobre fruticultura</h2>
+                                <p class="desc">Flyer dedicado a la fruticultura para un evento realizado en chile, el
+                                    arte viene de la
+                                    mano junto a otros que se crearon para el mismo evento.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/agroecologia/po.webp" alt="Expositor">
+                            <div class="fondo">
+                                <h2 class="titulo">Expositor AOA</h2>
+                                <p class="desc">Expositor de un evento en chile llamado AgroExpo(AOA)</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/alimentos/465shots_so.webp"
+                                alt="Flyer apicultura">
+                            <div class="fondo">
+                                <h2 class="titulo">Flyer apicultura</h2>
+                                <p class="desc">Un flyer orientado a la apicultura, se realizó para un evento
+                                    agroecológico en chile.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/agroecologia/insumos-organicos.webp"
+                                alt="Flyer insumos organicos">
+                            <div class="fondo">
+                                <h2 class="titulo">Flyer insumos organicos</h2>
+                                <p class="desc">Un flyer realizado para un evento agroecológico en chile, se trata de
+                                    promocionar
+                                    productos orgánicos.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/agroecologia/comercializacion-2.webp"
+                                alt="Flyer comercialización">
+                            <div class="fondo">
+                                <h2 class="titulo">Flyer comercialización</h2>
+                                <p class="desc">Flyer que trata sobre la comercialización en el campo de la agricultura.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/alimentos/80x70Ninhue.webp" alt="Stand CUVAS">
+                            <div class="fondo">
+                                <h2 class="titulo">Stand CUVAS </h2>
+                                <p class="desc">Un Stand acerca de vinos. Fue realizado para un evento en chile.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/alimentos/CUPCAKES.webp" alt="Flyer bebidas">
+                            <div class="fondo">
+                                <h2 class="titulo">Flyer CUPCAKES</h2>
+                                <p class="desc">Flyer para anuncio publicitario de postres. Con este flyer, nuestro
+                                    objetivo es
+                                    despertar
+                                    el apetito y
+                                    generar un impacto visual que capture la atención de los amantes de los cupcakes.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/alimentos/cuevas de ninhue.webp"
+                                alt="Stand CUVAS">
+                            <div class="fondo">
+                                <h2 class="titulo">Stand CUVAS</h2>
+                                <p class="desc">Stand realizado para un evento en Chile. Trata sobre vinos.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/alimentos/coocepa.webp" alt="Stand COOCEPA">
+                            <div class="fondo">
+                                <h2 class="titulo">Stand COOCEPA</h2>
+                                <p class="desc">Vinos de la marca COOCEPA. Hecho para un evento en Chile.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/alimentos/80x70.webp" alt="Stand MORA REYES">
+                            <div class="fondo">
+                                <h2 class="titulo">Stand MORA REYES</h2>
+                                <p class="desc">Vinos de la marca Mora Reyes. Llevado a cabo para un evento en Chile.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/alimentos/flyerbebidas_4_11zon.webp"
+                                alt="Flyer BEBIDAS">
+                            <div class="fondo">
+                                <h2 class="titulo">Flyer BEBIDAS</h2>
+                                <p class="desc">Un flyer de bebidas realizado como prueba pra un puesto laboral.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/alimentos/coocepa 80x70.webp"
+                                alt="Stand COOCEPA">
+                            <div class="fondo">
+                                <h2 class="titulo">Stand COOCEPA</h2>
+                                <p class="desc">Otro Stand de la marca de vinos COOCEPA. Realizado para un evento en
+                                    Chile.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/redes/portadas/prueba3.webp"
+                                alt="Flyer CARNICERIA">
+                            <div class="fondo">
+                                <h2 class="titulo">Flyer CARNICERIA
+                                </h2>
+                                <p class="desc">Flyer publicitario acerca de alimentos proteicos. </p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/redes/portadas/Portada_5_11zon.webp"
+                                alt="portada reel">
+                            <div class="fondo">
+                                <h2 class="titulo">Portada Reel</h2>
+                                <p class="desc">Portada de un reel sobre bienes raices.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/mockups/Remera-negra-diseño1.webp"
+                                alt="Camiseta AOA(Negro)">
+                            <div class="fondo">
+                                <h2 class="titulo">Camiseta AOA(Negro)</h2>
+                                <p class="desc">Edición de camiseta color Negro con el logo de AOA (Puede ser también tu
+                                    logo), diseñado en Photoshop.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/mockups/staffcuerda.webp" alt="Correa AOA">
+                            <div class="fondo">
+                                <h2 class="titulo">Correa AOA</h2>
+                                <p class="desc">Edición de distintos tipos de correas con rastro de iniciales "AOA",
+                                    diseñado en Photoshop.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/mockups/AnyConv.com__gafete 2.webp"
+                                alt="Carnet AOA">
+                            <div class="fondo">
+                                <h2 class="titulo">Carnet AOA</h2>
+                                <p class="desc">Diseño de carnet para eventos con logos de AOA y Patrocinadores del
+                                    evento,
+                                    diseñado en Photoshop.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/mockups/AnyConv.com__certificación.webp"
+                                alt="Certificado AOA">
+                            <div class="fondo">
+                                <h2 class="titulo">Certificado AOA</h2>
+                                <p class="desc">Diseño de certificado para eventos y entrega de diplomas, diseñado en
+                                    Photoshop.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/mockups/Gorra-blanca.webp"
+                                alt="Gorra AOA(Blanca)">
+                            <div class="fondo">
+                                <h2 class="titulo">Gorra AOA(Blanca)</h2>
+                                <p class="desc"> Edición de camiseta color Blanco con el logo de AOA (Puede ser también
+                                    tu
+                                    logo), diseñado en Photoshop.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="imagen" src="imagenes/trabajos/mockups/AnyConv.com__Remera_AOA2.webp"
+                                alt="Camiseta AOA blanca">
+                            <div class="fondo">
+                                <h2 class="titulo">Camiseta AOA (Blanca)</h2>
+                                <p class="desc">Edición de camiseta color Blanco con el logo de AOA (Puede ser también
+                                    tu
+                                    logo), diseñado en Photoshop.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="tituloResp">PAGINAS WEB</h2>
+                    <div class="responsiveTrabajos">
+                        <div id="carousel">
+                            <div class="item">
+                                <a href="https://institutopotenciaejemplo.netlify.app/">
+                                    <img class="imagen" src="imagenes/trabajos/diseño web/Gym.webp"
+                                        alt="Página web gimnasio">
+                                    <div class="fondo">
+                                        <h2 class="titulo">Página web gimnasio</h2>
+                                        <p class="desc">Una página web realizada para un gimnasio.</p>
+
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="">
+                                    <img class="imagen" src="imagenes/trabajos/diseño web/plants.webp"
+                                        alt="Página web arbovita">
+                                    <div class="fondo">
+                                        <h2 class="titulo">Página web ArboVita</h2>
+                                        <p class="desc">Una página web realizada como prueba para un trabajo. Se usaron
+                                            los
+                                            lenguajes:
+                                            PHP, CSS, HTML y MySQL</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="https://comforting-khapse-39a7ff.netlify.app/">
+                                    <img class="imagen" src="imagenes/trabajos/diseño web/Prueba.webp"
+                                        alt="Página web prueba">
+                                    <div class="fondo">
+                                        <h2 class="titulo">Página web prueba</h2>
+                                        <p class="desc">Una página web realizada como prueba para un trabajo, debido a
+                                            que la
+                                            publicación de trabajo se eliminó, la página no la terminamos, faltaría el
+                                            backend y
+                                            responsive. Se usaron los lenguajes:
+                                            CSS y HTML.</p>
+                                    </div>
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    </section>
+    <section id="contactar">
+        <div class="cajaContactar">
+            <div class="colorCaja">
+                <div class="sd">
+                    <h2 class="contH">CONTACTAR</h2>
+                    <input placeholder="EMAIL" type="email">
+                    <input placeholder="NOMBRE Y APELLIDO" type="text">
+                    <input placeholder="MENSAJE" class="textoG" type="text">
+                    <button>ENVIAR</button>
+                </div>
+            </div>
+        </div>
+        <div class="division">
+            <div class="cajaJuntar">
+                <hr  style="margin-right:20px;">
+                <div class="circCh"></div>
+                <hr style="margin-left:20px;">
+            </div>
+        </div>
+
+        <footer class="contactoInf">
+            <div>
+                <ul>
+                    <h3>SECCIONES</h3>
+                    <li><a href="">INICIO</a></li>
+                    <li><a href="">SOBRE NOSOTROS</a></li>
+                    <li><a href="">HABILIDADES</a></li>
+                    <li><a href="">PROYECTOS</a></li>
+                    <li><a href="">CONTACTAR</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <h3>CONTACTOS</h3>
+                    <li><p>EMAIL:voxaive@gmail.com</p></li>
+                </ul>
+            </div>
+        </footer>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
