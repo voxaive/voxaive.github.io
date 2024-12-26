@@ -1695,8 +1695,8 @@ input[type='radio'] {
         display: none;
     }
 
-    #desarrolloW {
-        display: none;
+    #centrarTodoProy {
+        display: none !important;
     }
 
     #diseñoG {
