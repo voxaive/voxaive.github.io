@@ -1637,7 +1637,18 @@ input[type='radio'] {
     display: none;
 }
 
+input[type="submit"]{
+    width: 200px;
+    background-color: green;
 
+
+}
+input[type="submit"]:hover{
+    width: 200px;
+    cursor: pointer;
+    color: green;
+    background-color: white;
+}
 
 #diseñoGrafico {
     display: none;
