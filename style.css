@@ -1,6 +1,5 @@
 body{margin: 0px;
-    overflow-x: hidden;
-    width: 100vw;
+    overflow-x: hidden !important;
 }
 *{
     font-family: "Inria Sans", serif;}
@@ -1696,8 +1695,8 @@ input[type='radio'] {
         display: none;
     }
 
-    #desarrolloW {
-        display: none;
+    #centrarTodoProy {
+        display: none !important;
     }
 
     #diseñoG {
