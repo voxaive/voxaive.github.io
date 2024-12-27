@@ -537,6 +537,9 @@ li:hover a{
         }
         
 }
+.contactoInf li{
+    margin: 4px;
+}
 @media(max-width:647px){
     #habilidades{
         height: 1500px;
