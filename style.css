@@ -604,14 +604,20 @@ li:hover a{
     border: 2px solid #00ff00; /* Color verde */
   }
 
-  .diamond:nth-child(0) {
-    top: 60%; 
+  .diamond:nth-child(1) {
+    top: 10%; 
   }
   .diamond:nth-child(2) {
-    top: 39%;
+    top: 27%;
   }
   .diamond:nth-child(3) {
-    top: 65%; 
+    top: 63%; 
+  }
+  .diamond:nth-child(4) {
+    top: 45%;
+  }
+  .diamond:nth-child(5) {
+    top: 82%; 
   }
 .tecnologiasUsadas{
     display: flex;
@@ -1676,7 +1682,7 @@ input[type='radio'] {
 #DesarrolloWeb:checked~#centrarTodoProy{
     display: flex;
     overflow: visible;
-    height: 1500px !important;
+    height: 2200px !important;
 }
 
 
