@@ -1872,7 +1872,6 @@ input[type="submit"]:hover{
         text-align: left;
 
     }
-
     .imagenes {
         display: block;
         margin-top: 30px;
@@ -1888,4 +1887,7 @@ input[type="submit"]:hover{
 
 
 
+}
+.s{
+    margin-left: 20px !important;
 }
