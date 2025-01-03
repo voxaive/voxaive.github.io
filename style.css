@@ -59,6 +59,7 @@ i{
 i{
     color: white;
     fill: white;   
+    transition: all 0.5s;
 }
 i:hover{
     color: green !important;
@@ -93,6 +94,9 @@ i svg{
 }
 .cajaCONTACTOHE i{
     margin-left: 5px;
+}
+button{
+    transition: all 0.2s;
 }
 .cajaCONTACTOHE button{
     margin: 0px;
@@ -1573,7 +1577,7 @@ a {
 }
 
 .label {
-    background-color: rgb(0, 0, 0);
+    background-color: green;
     color: white;
     width: 150px;
     height: 50px;
@@ -1582,10 +1586,11 @@ a {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: all 0.3s;
 }
 
 .label:hover {
-    color: black;
+    color: green;
     background-color: white;
 }
 
