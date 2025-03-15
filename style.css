@@ -1,6 +1,9 @@
 body{margin: 0px;
     overflow-x: hidden !important;
 }
+html{
+    scroll-behavior: smooth;
+}
 body::-webkit-scrollbar{
     width: 8px;
     background-color:rgb(29, 29, 29);
@@ -18,7 +21,7 @@ body::-webkit-scrollbar{
     background-image: url("imagenes/fondo.webp");
     background-repeat: no-repeat;
     background-size:cover;
-   height: 955px;
+    height: 955px;
 
 }
 header.scrolled {
