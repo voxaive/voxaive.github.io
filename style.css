@@ -1690,7 +1690,7 @@ input[type='radio'] {
 #DesarrolloWeb:checked~#centrarTodoProy{
     display: flex;
     overflow: visible;
-    height: 2200px !important;
+    height: 2500px !important;
 }
 
 
