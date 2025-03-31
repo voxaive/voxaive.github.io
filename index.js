@@ -6,4 +6,4 @@ const header = document.getElementById('header');
       } else {
         header.classList.remove('scrolled');
       }
-    });
+    })
