@@ -1,50 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="style.css">
-    
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap" rel="stylesheet">
+
     <!-- Meta -->
     <meta name="title" content="Voxaive - Diseño y desarrollo | Transformamos ideas en Experiencias Únicas">
     <meta name="description"
         content="Grupo especializado en edición de videos, diseño gráfico y desarrollo web. Transformamos ideas en realidad con creatividad y precisión. ¡Descubre cómo podemos llevar tu proyecto al siguiente nivel!">
-    <meta name="keywords" content="desarrollo web, diseño gráfico, design web, Photoshop, Premiere, edición de videos, Illustrator, Graphic Design, voxaive, Voxaive, Vox, VOXAIVE, HTML, CSS, JavaScript, UI, UX, diseño de interfaces, desarrollo front-end, desarrollo back-end, diseño responsivo, branding, diseño de logos, maquetación web, wireframes, prototipos, Figma, Adobe XD, animaciones web, diseño creativo, SEO, marketing digital, sitios web modernos">
+    <meta name="keywords"
+        content="desarrollo web, diseño gráfico, design web, Photoshop, Premiere, edición de videos, Illustrator, Graphic Design, voxaive, Voxaive, Vox, VOXAIVE, HTML, CSS, JavaScript, UI, UX, diseño de interfaces, desarrollo front-end, desarrollo back-end, diseño responsivo, branding, diseño de logos, maquetación web, wireframes, prototipos, Figma, Adobe XD, animaciones web, diseño creativo, SEO, marketing digital, sitios web modernos">
     <link rel="favicon" href="imagenes/Logo.webp">
     <link rel="canonical" href="https://voxaive.github.io/">
-    <link rel="icon" href="imagenes/Logo.webp" type="image/webp" sizes="any" media="(min-width: 0px)">
+    <link rel="icon" href="imagenes/Logo.webp" type="image/webp">
     <title>Voxaive</title>
+    <link rel="preload" href="https://unpkg.com/aos@2.3.1/dist/aos.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    </noscript>
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script>
         WebFontConfig = {
-          google: {
-            families: ['Inria Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700', 'Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900']
-          }
+            google: {
+                families: ['Inria Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700', 'Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900']
+            }
         };
-        (function() {
-          var wf = document.createElement('script');
-          wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
-          wf.type = 'text/javascript';
-          wf.async = 'true';
-          var s = document.getElementsByTagName('script')[0];
-          s.parentNode.insertBefore(wf, s);
+        (function () {
+            var wf = document.createElement('script');
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
         })();
-      </script>
-      <meta http-equiv="Cache-Control" content="max-age=31536000, public">
-      
+    </script>
+    <meta http-equiv="Cache-Control" content="max-age=315362, public">
+
 </head>
+
 <body>
     <section id="inicio">
         <header id="header">
-            <div class="contenedorH" style="z-index: 1000;"> 
+            <div class="contenedorH" style="z-index: 1000;">
                 <div class="iconosD">
                     <div class="icono"><img src="imagenes/Logo.webp" alt="logotipo-Voxaive"></div>
-                    <i onclick="location.href= 'https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWtDtZDRMLPDHWQBFpnqmkfSNFKntdbbJjzWFsRxCKNnTThmcJdLBQBmDZZbljwbthFKRPmMl'"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M4 4h8q.216.001.409.088L8 9.231L3.591 4.088A1 1 0 0 1 4 4m-1 7V5l.002-.063l2.932 3.421l-2.9 2.9A1 1 0 0 1 3 11m9 1H4q-.133 0-.258-.034L6.588 9.12l1.413 1.648L9.414 9.12l2.846 2.846a1 1 0 0 1-.258.034zm1-1q0 .133-.034.258l-2.9-2.9l2.932-3.421L13 5z"/></svg></i>
-                    <i onclick="location.href='https://www.instagram.com/voxaive/'"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M13 10a3 3 0 1 1-6 0q.001-.257.049-.5H6v3.997c0 .278.225.503.503.503h6.995a.503.503 0 0 0 .502-.503V9.5h-1.049q.048.243.049.5m-3 2a2 2 0 1 0-.001-4.001A2 2 0 0 0 10 12m2.4-4.1h1.199a.3.3 0 0 0 .301-.3V6.401a.3.3 0 0 0-.301-.301H12.4a.3.3 0 0 0-.301.301V7.6c.001.165.136.3.301.3M10 .4A9.6 9.6 0 0 0 .4 10a9.6 9.6 0 0 0 9.6 9.6a9.6 9.6 0 0 0 9.6-9.6A9.6 9.6 0 0 0 10 .4m5 13.489C15 14.5 14.5 15 13.889 15H6.111C5.5 15 5 14.5 5 13.889V6.111C5 5.5 5.5 5 6.111 5h7.778C14.5 5 15 5.5 15 6.111z"/></svg></i>
-                    <i onclick="location.href='https://www.freelancer.com/u/Kalhs'"><svg  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 91.38"><defs></defs><title>freelancer</title><path class="cls-1" d="M72.19,0l8.37,11.74L122.88,0Zm-44,91.38L51.08,69,37.3,54.19,28.18,91.38ZM68.7,0,56.46,11l20.59.77L68.7,0ZM21.11,0l4.42,9,24.23,1.51L21.11,0Zm13,46.73L52,13.33,0,10.52,34.09,46.73Zm2.08,2.11L53.08,67,71.73,48.72l5.79-34L54.79,13.51,36.17,48.84Zm0,0Z"/></svg></i>    
+                    <i
+                        onclick="location.href= 'https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWtDtZDRMLPDHWQBFpnqmkfSNFKntdbbJjzWFsRxCKNnTThmcJdLBQBmDZZbljwbthFKRPmMl'"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path fill="currentColor"
+                                d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M4 4h8q.216.001.409.088L8 9.231L3.591 4.088A1 1 0 0 1 4 4m-1 7V5l.002-.063l2.932 3.421l-2.9 2.9A1 1 0 0 1 3 11m9 1H4q-.133 0-.258-.034L6.588 9.12l1.413 1.648L9.414 9.12l2.846 2.846a1 1 0 0 1-.258.034zm1-1q0 .133-.034.258l-2.9-2.9l2.932-3.421L13 5z" />
+                        </svg></i>
+                    <i onclick="location.href='https://www.instagram.com/voxaive/'"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                            <path fill="currentColor"
+                                d="M13 10a3 3 0 1 1-6 0q.001-.257.049-.5H6v3.997c0 .278.225.503.503.503h6.995a.503.503 0 0 0 .502-.503V9.5h-1.049q.048.243.049.5m-3 2a2 2 0 1 0-.001-4.001A2 2 0 0 0 10 12m2.4-4.1h1.199a.3.3 0 0 0 .301-.3V6.401a.3.3 0 0 0-.301-.301H12.4a.3.3 0 0 0-.301.301V7.6c.001.165.136.3.301.3M10 .4A9.6 9.6 0 0 0 .4 10a9.6 9.6 0 0 0 9.6 9.6a9.6 9.6 0 0 0 9.6-9.6A9.6 9.6 0 0 0 10 .4m5 13.489C15 14.5 14.5 15 13.889 15H6.111C5.5 15 5 14.5 5 13.889V6.111C5 5.5 5.5 5 6.111 5h7.778C14.5 5 15 5.5 15 6.111z" />
+                        </svg></i>
+                    <i onclick="location.href='https://www.freelancer.com/u/Kalhs'"><svg data-name="Layer 1"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 91.38">
+                            <defs></defs>
+                            <title>freelancer</title>
+                            <path class="cls-1"
+                                d="M72.19,0l8.37,11.74L122.88,0Zm-44,91.38L51.08,69,37.3,54.19,28.18,91.38ZM68.7,0,56.46,11l20.59.77L68.7,0ZM21.11,0l4.42,9,24.23,1.51L21.11,0Zm13,46.73L52,13.33,0,10.52,34.09,46.73Zm2.08,2.11L53.08,67,71.73,48.72l5.79-34L54.79,13.51,36.17,48.84Zm0,0Z" />
+                        </svg></i>
                 </div>
                 <ul class="ulNoResp">
                     <li class="listS"><a href="#inicio">INICIO</a></li>
@@ -76,13 +102,29 @@
                 <div data-aos="fade-right" data-aos-duration="1500" class="barraTit">
                     <h3>VOXAIVE</h3>
                     <h1>INNOVACIONES <span class="colorVerd">TECNOLÓGICAS</span></h1>
-                    <p>Más que una<span class="colorVerd"> página web</span>: un sentimiento que refleja el corazón y el alma de cada<span class="colorVerd"> empresa</span>.</p>
+                    <p>Más que una<span class="colorVerd"> página web</span>: un sentimiento que refleja el corazón y el
+                        alma de cada<span class="colorVerd"> empresa</span>.</p>
                     <div class="cajaCONTACTOHE">
-                        <button onclick="location.href='#contactar'">CONTACTAR</button> 
+                        <button onclick="location.href='#contactar'">CONTACTAR</button>
                         <div class="iconosConBan">
-                            <i onclick="location.href= 'https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWtDtZDRMLPDHWQBFpnqmkfSNFKntdbbJjzWFsRxCKNnTThmcJdLBQBmDZZbljwbthFKRPmMl'"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M4 4h8q.216.001.409.088L8 9.231L3.591 4.088A1 1 0 0 1 4 4m-1 7V5l.002-.063l2.932 3.421l-2.9 2.9A1 1 0 0 1 3 11m9 1H4q-.133 0-.258-.034L6.588 9.12l1.413 1.648L9.414 9.12l2.846 2.846a1 1 0 0 1-.258.034zm1-1q0 .133-.034.258l-2.9-2.9l2.932-3.421L13 5z"/></svg></i>
-                            <i onclick="location.href='https://www.instagram.com/voxaive/'"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M13 10a3 3 0 1 1-6 0q.001-.257.049-.5H6v3.997c0 .278.225.503.503.503h6.995a.503.503 0 0 0 .502-.503V9.5h-1.049q.048.243.049.5m-3 2a2 2 0 1 0-.001-4.001A2 2 0 0 0 10 12m2.4-4.1h1.199a.3.3 0 0 0 .301-.3V6.401a.3.3 0 0 0-.301-.301H12.4a.3.3 0 0 0-.301.301V7.6c.001.165.136.3.301.3M10 .4A9.6 9.6 0 0 0 .4 10a9.6 9.6 0 0 0 9.6 9.6a9.6 9.6 0 0 0 9.6-9.6A9.6 9.6 0 0 0 10 .4m5 13.489C15 14.5 14.5 15 13.889 15H6.111C5.5 15 5 14.5 5 13.889V6.111C5 5.5 5.5 5 6.111 5h7.778C14.5 5 15 5.5 15 6.111z"/></svg></i>
-                            <i onclick="location.href='https://www.freelancer.com/u/Kalhs'"><svg  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 91.38"><defs></defs><title>freelancer</title><path class="cls-1" d="M72.19,0l8.37,11.74L122.88,0Zm-44,91.38L51.08,69,37.3,54.19,28.18,91.38ZM68.7,0,56.46,11l20.59.77L68.7,0ZM21.11,0l4.42,9,24.23,1.51L21.11,0Zm13,46.73L52,13.33,0,10.52,34.09,46.73Zm2.08,2.11L53.08,67,71.73,48.72l5.79-34L54.79,13.51,36.17,48.84Zm0,0Z"/></svg></i>
+                            <i
+                                onclick="location.href= 'https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWtDtZDRMLPDHWQBFpnqmkfSNFKntdbbJjzWFsRxCKNnTThmcJdLBQBmDZZbljwbthFKRPmMl'"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                    <path fill="currentColor"
+                                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M4 4h8q.216.001.409.088L8 9.231L3.591 4.088A1 1 0 0 1 4 4m-1 7V5l.002-.063l2.932 3.421l-2.9 2.9A1 1 0 0 1 3 11m9 1H4q-.133 0-.258-.034L6.588 9.12l1.413 1.648L9.414 9.12l2.846 2.846a1 1 0 0 1-.258.034zm1-1q0 .133-.034.258l-2.9-2.9l2.932-3.421L13 5z" />
+                                </svg></i>
+                            <i onclick="location.href='https://www.instagram.com/voxaive/'"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                                    <path fill="currentColor"
+                                        d="M13 10a3 3 0 1 1-6 0q.001-.257.049-.5H6v3.997c0 .278.225.503.503.503h6.995a.503.503 0 0 0 .502-.503V9.5h-1.049q.048.243.049.5m-3 2a2 2 0 1 0-.001-4.001A2 2 0 0 0 10 12m2.4-4.1h1.199a.3.3 0 0 0 .301-.3V6.401a.3.3 0 0 0-.301-.301H12.4a.3.3 0 0 0-.301.301V7.6c.001.165.136.3.301.3M10 .4A9.6 9.6 0 0 0 .4 10a9.6 9.6 0 0 0 9.6 9.6a9.6 9.6 0 0 0 9.6-9.6A9.6 9.6 0 0 0 10 .4m5 13.489C15 14.5 14.5 15 13.889 15H6.111C5.5 15 5 14.5 5 13.889V6.111C5 5.5 5.5 5 6.111 5h7.778C14.5 5 15 5.5 15 6.111z" />
+                                </svg></i>
+                            <i onclick="location.href='https://www.freelancer.com/u/Kalhs'"><svg data-name="Layer 1"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 91.38">
+                                    <defs></defs>
+                                    <title>freelancer</title>
+                                    <path class="cls-1"
+                                        d="M72.19,0l8.37,11.74L122.88,0Zm-44,91.38L51.08,69,37.3,54.19,28.18,91.38ZM68.7,0,56.46,11l20.59.77L68.7,0ZM21.11,0l4.42,9,24.23,1.51L21.11,0Zm13,46.73L52,13.33,0,10.52,34.09,46.73Zm2.08,2.11L53.08,67,71.73,48.72l5.79-34L54.79,13.51,36.17,48.84Zm0,0Z" />
+                                </svg></i>
                         </div>
                     </div>
                 </div>
@@ -103,8 +145,8 @@
                 <div class="conjunto">
                     <div class="conjuntoIzq">
                         <div class="decoracionIzq">
-                            <div data-aos="fade-down"  class="circDecoIzq"></div>
-                            <div data-aos="fade-down"  class="cajaS"></div>
+                            <div data-aos="fade-down" class="circDecoIzq"></div>
+                            <div data-aos="fade-down" class="cajaS"></div>
                         </div>
                         <div class="cuadradoVerde"></div>
                     </div>
@@ -114,23 +156,33 @@
                             <div data-aos="fade-right" class="circDecoIzq"></div>
                             <div data-aos="fade-right" class="cajaS2"></div>
                         </div>
-                        <p>Voxaive surgió como un proyecto impulsado por cuatro jóvenes estudiantes de una institución especializada en computación. En la actualidad, nuestro equipo está compuesto por diez personas que ofrecen sus servicios como freelancers, dedicados al diseño gráfico, edición de videos y desarrollo web.</p>
+                        <p>Voxaive surgió como un proyecto impulsado por cuatro jóvenes estudiantes de una institución
+                            especializada en computación. En la actualidad, nuestro equipo está compuesto por diez
+                            personas que ofrecen sus servicios como freelancers, dedicados al diseño gráfico, edición de
+                            videos y desarrollo web.</p>
                         <div class="superpuesto">
                             <div class="cajaHabilidades">
-                                <span style="display: flex; justify-content: center; margin-top: 20px; font-size: 100px; color:white;"
-                                class="material-symbols-outlined">
-                                draw
-                            </span>
-                                <p class="textoHabilidades">Somos tu aliado en diseño gráfico. Desde identidades visuales únicas hasta materiales impresos y digitales impactantes, nuestro equipo crea soluciones visuales que destacan. Haz brillar tu marca con nuestra creatividad y experiencia en diseño gráfico.</p>
+                                <span
+                                    style="display: flex; justify-content: center; margin-top: 20px; font-size: 100px; color:white;"
+                                    class="material-symbols-outlined">
+                                    draw
+                                </span>
+                                <p class="textoHabilidades">Somos tu aliado en diseño gráfico. Desde identidades
+                                    visuales únicas hasta materiales impresos y digitales impactantes, nuestro equipo
+                                    crea soluciones visuales que destacan. Haz brillar tu marca con nuestra creatividad
+                                    y experiencia en diseño gráfico.</p>
                             </div>
                             <div class="cajaHabilidades">
-                                <span style="display: flex; justify-content: center; margin-top: 20px; font-size: 100px; color: white;"
-                                class="material-symbols-outlined">
-                                devices
-                            </span>
+                                <span
+                                    style="display: flex; justify-content: center; margin-top: 20px; font-size: 100px; color: white;"
+                                    class="material-symbols-outlined">
+                                    devices
+                                </span>
                                 <p class="textoHabilidades">Expertos en
-                                    diseño web. Creamos experiencias digitales que cautivan. Desde sitios dinámicos hasta
-                                    interfaces intuitivas, nuestro equipo da vida a tu presencia online. Descubre cómo nuestra
+                                    diseño web. Creamos experiencias digitales que cautivan. Desde sitios dinámicos
+                                    hasta
+                                    interfaces intuitivas, nuestro equipo da vida a tu presencia online. Descubre cómo
+                                    nuestra
                                     creatividad en diseño web puede impulsar tu marca.</p>
                             </div>
                         </div>
@@ -146,61 +198,62 @@
             <h2>HABILIDADES</h2>
         </div>
 
-            <div class="parent">
-                <div class="div1">
-                    <div class="iconos">
-                        <img src="imagenes/iconosHab/HTML5_logo_and_wordmark.webp" alt="LogoHTML">
-                        <img src="imagenes/iconosHab/CSS.webp" alt="LogoCSS">
-                        <img src="imagenes/iconosHab/Bootstrap_logo.webp" alt="LogoBootstrap">
-                    </div>    
-                    <div class="ubicarAbajo">
-                        <div class="tituloCajaHab">
-                            <h2>FRONT-END</h2>
-                        </div>
-                    </div>
-                    
+        <div class="parent">
+            <div class="div1">
+                <div class="iconos">
+                    <img src="imagenes/iconosHab/HTML5_logo_and_wordmark.webp" alt="LogoHTML">
+                    <img src="imagenes/iconosHab/CSS.webp" alt="LogoCSS">
+                    <img src="imagenes/iconosHab/Bootstrap_logo.webp" alt="LogoBootstrap">
                 </div>
-                <div class="div2"> 
-                    <div class="iconos">
-                        <div>
-                            <img src="imagenes/iconosHab/MySQL-logo.webp" alt="logoMySQL">
-                            <img src="imagenes/iconosHab/Postgresql_elephant.webp" alt="PostgrSQL">
-                        </div>
-                        <div>
-                            <img src="imagenes/iconosHab/102.webp" alt="102">
-                            <img src="imagenes/iconosHab/103.webp" alt="103">
-                        </div>
-                    </div> 
-                    <div class="ubicarAbajo">
-                        <div class="tituloCajaHab">
-                            <h2>BACK-END</h2>
-                        </div>
+                <div class="ubicarAbajo">
+                    <div class="tituloCajaHab">
+                        <h2>FRONT-END</h2>
                     </div>
-                </div>
-                <div class="div3">
-                    <div class="centrarSoft">
-                        <div class="iconos software">
-                            <div>
-                                <img src="imagenes/iconosHab/adobe-photoshop-logo.webp" alt="LogoPhotoshop">
-                                <img src="imagenes/iconosHab/figma_logo 1.webp" alt="FigmaLogo">    
-                            </div>
-                            <div>
-                                <img src="imagenes/iconosHab/Illustrator-Logo.webp" alt="IlustratorLogo">
-                                <img src="imagenes/iconosHab/graphic-designer-and-web-design-studio-tool-logo-free-vector.webp" alt="designerGraphic">    
-                            </div>
-                        </div> 
-                    </div>
-                    <div class="ubicarAbajo">
-                        <div class="tituloCajaHab">
-                            <h2>SOFTWARE</h2>
-                        </div>
-                    </div>
-                </div>
                 </div>
 
-        
+            </div>
+            <div class="div2">
+                <div class="iconos">
+                    <div>
+                        <img src="imagenes/iconosHab/MySQL-logo.webp" alt="logoMySQL">
+                        <img src="imagenes/iconosHab/Postgresql_elephant.webp" alt="PostgrSQL">
+                    </div>
+                    <div>
+                        <img src="imagenes/iconosHab/102.webp" alt="102">
+                        <img src="imagenes/iconosHab/103.webp" alt="103">
+                    </div>
+                </div>
+                <div class="ubicarAbajo">
+                    <div class="tituloCajaHab">
+                        <h2>BACK-END</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="div3">
+                <div class="centrarSoft">
+                    <div class="iconos software">
+                        <div>
+                            <img src="imagenes/iconosHab/adobe-photoshop-logo.webp" alt="LogoPhotoshop">
+                            <img src="imagenes/iconosHab/figma_logo 1.webp" alt="FigmaLogo">
+                        </div>
+                        <div>
+                            <img src="imagenes/iconosHab/Illustrator-Logo.webp" alt="IlustratorLogo">
+                            <img src="imagenes/iconosHab/graphic-designer-and-web-design-studio-tool-logo-free-vector.webp"
+                                alt="designerGraphic">
+                        </div>
+                    </div>
+                </div>
+                <div class="ubicarAbajo">
+                    <div class="tituloCajaHab">
+                        <h2>SOFTWARE</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </section>
-    <section  id="proyectos">
+    <section id="proyectos">
         <div id="trabajos" class="cajaTrabajos">
             <section id="trabajos">
                 <h1 class="Trab">Trabajos</h1>
@@ -535,14 +588,14 @@
                                             alt="imagenRedes"></div>
                                     <div id="item-RP6"><img class="imagenR"
                                             src="imagenes/trabajos/redes/portadas/Tapa.webp" alt="imagenRedes"></div>
-                             
+
                                     <div id="item-RP7"><img class="imagenR"
                                             src="imagenes/trabajos/redes/portadas/tel.webp" alt="imagenRedes"></div>
                                     <div id="item-RP8"><img class="imagenR"
-                                            src="imagenes/trabajos/redes/portadas/tel2.webp"
-                                            alt="imagenRedes"></div>
+                                            src="imagenes/trabajos/redes/portadas/tel2.webp" alt="imagenRedes"></div>
                                     <div id="item-RP9"><img class="imagenR"
-                                            src="imagenes/trabajos/redes/portadas/portadareel.webp" alt="imagenRedes"></div>
+                                            src="imagenes/trabajos/redes/portadas/portadareel.webp" alt="imagenRedes">
+                                    </div>
 
                                 </div>
                             </div>
@@ -608,49 +661,79 @@
                             <img src="imagenes/trabajos/diseño web/Prueba.webp" alt="PruebaWeb">
                         </div>
                         <div data-aos="fade-left" class="imagencja">
-                            <div class="titColImgcj"><h2>AMERICAN LATIN STORIES PAGE</h2></div>
-                            <div><p>Fuimos contratados para crear la página web de un videojuego inspirado en historias de terror y misterio del folclore latino americano. El diseño buscaba transmitir una atmósfera oscura y envolvente. Aunque el juego nunca llegó a lanzarse, se logro hacer el diseño de la pagina web.</p></div>
+                            <div class="titColImgcj">
+                                <h2>AMERICAN LATIN STORIES PAGE</h2>
+                            </div>
+                            <div>
+                                <p>Fuimos contratados para crear la página web de un videojuego inspirado en historias
+                                    de terror y misterio del folclore latino americano. El diseño buscaba transmitir una
+                                    atmósfera oscura y envolvente. Aunque el juego nunca llegó a lanzarse, se logro
+                                    hacer el diseño de la pagina web.</p>
+                            </div>
                             <div class="tecnologiasUsadas">
                                 <img class="iconoHabUt" src="imagenes/iconosHab/figma_logo 1.webp" alt="FigmaLogo">
                                 <img class="iconoHabUt s" src="imagenes/iconosHab/CSS.webp" alt="CSSLogo">
-                                <img class="iconoHabUt s" src="imagenes/iconosHab/HTML5_logo_and_wordmark.webp" alt="HTMLLogo">
+                                <img class="iconoHabUt s" src="imagenes/iconosHab/HTML5_logo_and_wordmark.webp"
+                                    alt="HTMLLogo">
                                 <img class="iconoHabUt s" src="imagenes/iconosHab/diplomado-php-js.png" alt="PHPLogo">
                             </div>
                             <div>
-                                <button onclick="location.href='https://www.figma.com/design/9DYFQfr3d7DdqhDxhn9e3N/Example?node-id=0-1&p=f&t=xIt71Abr3ljzla42-0'">VER DISEÑO</button>
-                                <button onclick="location.href='https://voxaive.github.io/americanLatinStories/'" class="botonVP">VER PAGINA</button>
+                                <button
+                                    onclick="location.href='https://www.figma.com/design/9DYFQfr3d7DdqhDxhn9e3N/Example?node-id=0-1&p=f&t=xIt71Abr3ljzla42-0'">VER
+                                    DISEÑO</button>
+                                <button onclick="location.href='https://voxaive.github.io/americanLatinStories/'"
+                                    class="botonVP">VER PAGINA</button>
                             </div>
                         </div>
-                        <div data-aos="fade-left" class="imagencja"> <img style="object-fit: cover;" src="imagenes/trabajos/diseño web/hambur.webp" alt="HamburMenu"></div>
-                        <div  data-aos="fade-left" class="imagencja">
-                            <div class="titColImgcj"><h2>CRYPTO LANDING PAGE</h2></div>
-                            <div><p>Proyecto ficticio para portafolio: diseño y desarrollo de una landing page para una consultora especializada en inversiones en criptomonedas.</p></div>
+                        <div data-aos="fade-left" class="imagencja"> <img style="object-fit: cover;"
+                                src="imagenes/trabajos/diseño web/hambur.webp" alt="HamburMenu"></div>
+                        <div data-aos="fade-left" class="imagencja">
+                            <div class="titColImgcj">
+                                <h2>CRYPTO LANDING PAGE</h2>
+                            </div>
+                            <div>
+                                <p>Proyecto ficticio para portafolio: diseño y desarrollo de una landing page para una
+                                    consultora especializada en inversiones en criptomonedas.</p>
+                            </div>
                             <div class="tecnologiasUsadas">
                                 <img class="iconoHabUt" src="imagenes/iconosHab/figma_logo 1.webp" alt="FigmaLogo">
                             </div>
                             <div>
-                                <button onclick="location.href='https://www.figma.com/design/EZlRT9y18ocn7cqqhdEYmW/PaginaWeb-Crypto?node-id=0-1&t=HyxhtgWQPZwvDCZu-1'">VER DISEÑO</button>
+                                <button
+                                    onclick="location.href='https://www.figma.com/design/EZlRT9y18ocn7cqqhdEYmW/PaginaWeb-Crypto?node-id=0-1&t=HyxhtgWQPZwvDCZu-1'">VER
+                                    DISEÑO</button>
                             </div>
                         </div>
                         <div data-aos="fade-left" style="object-fit:cover; object-position:top;" class="imagencja">
                             <img src="imagenes/trabajos/diseño web/Cabañas.webp" alt="CabañasPaginaFoto">
                         </div>
                         <div data-aos="fade-left" class="imagencja">
-                            <div class="titColImgcj"><h2>SERIUM360</h2></div>
-                            <div><p>Desarrollamos una landing page para un emprendimiento de seguridad e higiene, donde se presentan sus servicios de manera clara y accesible. La página incluye un formulario de contacto y múltiples opciones de comunicación para facilitar el acceso de los clientes a la empresa.</p></div>
+                            <div class="titColImgcj">
+                                <h2>SERIUM360</h2>
+                            </div>
+                            <div>
+                                <p>Desarrollamos una landing page para un emprendimiento de seguridad e higiene, donde
+                                    se presentan sus servicios de manera clara y accesible. La página incluye un
+                                    formulario de contacto y múltiples opciones de comunicación para facilitar el acceso
+                                    de los clientes a la empresa.</p>
+                            </div>
                             <div class="tecnologiasUsadas">
                                 <img class="iconoHabUt" src="imagenes/iconosHab/figma_logo 1.webp" alt="FigmaLogo">
                                 <img class="iconoHabUt s" src="imagenes/iconosHab/CSS.webp" alt="CSSLogo">
-                                <img class="iconoHabUt s" src="imagenes/iconosHab/HTML5_logo_and_wordmark.webp" alt="HTMLLogo">
+                                <img class="iconoHabUt s" src="imagenes/iconosHab/HTML5_logo_and_wordmark.webp"
+                                    alt="HTMLLogo">
                                 <img class="iconoHabUt s" src="imagenes/iconosHab/diplomado-php-js.png" alt="PHPLogo">
                             </div>
                             <div>
-                                <button onclick="location.href='https://www.figma.com/design/Q0pdAolfnL3ZYdZNeco7ul/HSE?node-id=0-1&p=f&t=Zx1sIuiIuTunANGW-0'">VER DISEÑO</button>
-                                <button onclick="location.href='https://serium360.com/'" class="botonVP">VER PAGINA</button>
+                                <button
+                                    onclick="location.href='https://www.figma.com/design/Q0pdAolfnL3ZYdZNeco7ul/HSE?node-id=0-1&p=f&t=Zx1sIuiIuTunANGW-0'">VER
+                                    DISEÑO</button>
+                                <button onclick="location.href='https://serium360.com/'" class="botonVP">VER
+                                    PAGINA</button>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="line-container">
                         <div class="vertical-line"></div>
                         <div class="diamond"></div>
@@ -658,42 +741,67 @@
                         <div class="diamond"></div>
                         <div class="diamond"></div>
                         <div class="diamond"></div>
-                      </div>
-                    <div  class="derecha">
-                        <div  data-aos="fade-right" class="imagencja">
-                            <div class="titColImgcj"><h2>PAGINA WEB PRUEBA</h2></div>
-                            <div><p>Una página web realizada como prueba para un trabajo, debido a que la publicación de trabajo se eliminó, la página no la terminamos, faltaría el backend.</p></div>
+                    </div>
+                    <div class="derecha">
+                        <div data-aos="fade-right" class="imagencja">
+                            <div class="titColImgcj">
+                                <h2>PAGINA WEB PRUEBA</h2>
+                            </div>
+                            <div>
+                                <p>Una página web realizada como prueba para un trabajo, debido a que la publicación de
+                                    trabajo se eliminó, la página no la terminamos, faltaría el backend.</p>
+                            </div>
                             <div class="tecnologiasUsadas">
-                                <img class="iconoHabUt" src="imagenes/iconosHab/HTML5_logo_and_wordmark.webp" alt="HTMLLogo">
+                                <img class="iconoHabUt" src="imagenes/iconosHab/HTML5_logo_and_wordmark.webp"
+                                    alt="HTMLLogo">
                                 <img class="iconoHabUt" src="imagenes/iconosHab/CSS.webp" alt="CSSLogo">
                             </div>
                             <div>
-                                <button onclick="location.href='https://comforting-khapse-39a7ff.netlify.app/'" class="botonVP">VER PAGINA</button>
+                                <button onclick="location.href='https://comforting-khapse-39a7ff.netlify.app/'"
+                                    class="botonVP">VER PAGINA</button>
                             </div>
                         </div>
-                        <div  data-aos="fade-right" class="imagencja"><img style="object-fit:cover; object-position:top;" src="imagenes/trabajos/diseño web/latin.webp" alt="LatinImagePagina"></div>
-                        <div  data-aos="fade-right" class="imagencja">
-                            <div class="titColImgcj"><h2>MENU WEB</h2></div>
-                            <div><p>Una página web realizada para mostrar un menu web diseño en figma.</p></div>
+                        <div data-aos="fade-right" class="imagencja"><img style="object-fit:cover; object-position:top;"
+                                src="imagenes/trabajos/diseño web/latin.webp" alt="LatinImagePagina"></div>
+                        <div data-aos="fade-right" class="imagencja">
+                            <div class="titColImgcj">
+                                <h2>MENU WEB</h2>
+                            </div>
+                            <div>
+                                <p>Una página web realizada para mostrar un menu web diseño en figma.</p>
+                            </div>
                             <div class="tecnologiasUsadas">
                                 <img class="iconoHabUt" src="imagenes/iconosHab/figma_logo 1.webp" alt="FigmaLogo">
                             </div>
                             <div>
-                                <button onclick="location.href='https://www.figma.com/design/7EvuLZeEGtg2r4loAJGkRO/Menu-Web?node-id=0-1&p=f&t=WBCCutxMRElCBh2r-0'">VER DISEÑO</button>
+                                <button
+                                    onclick="location.href='https://www.figma.com/design/7EvuLZeEGtg2r4loAJGkRO/Menu-Web?node-id=0-1&p=f&t=WBCCutxMRElCBh2r-0'">VER
+                                    DISEÑO</button>
                             </div>
                         </div>
-                        <div data-aos="fade-right" class="imagencja"> <img style="object-fit: cover; object-position:top;" src="imagenes/trabajos/diseño web/Crypto.webp" alt="CryptoPageFoto"></div>
-                        <div  data-aos="fade-right" class="imagencja">
-                            <div class="titColImgcj"><h2>CABAÑAS REFUGIO</h2></div>
-                            <div><p>Proyecto para portafolio: Diseño y desarrollo de una landing page para una empresa de cabañas, enfocada en ofrecer una experiencia única de descanso y conexión con la naturaleza.</p></div>
+                        <div data-aos="fade-right" class="imagencja"> <img
+                                style="object-fit: cover; object-position:top;"
+                                src="imagenes/trabajos/diseño web/Crypto.webp" alt="CryptoPageFoto"></div>
+                        <div data-aos="fade-right" class="imagencja">
+                            <div class="titColImgcj">
+                                <h2>CABAÑAS REFUGIO</h2>
+                            </div>
+                            <div>
+                                <p>Proyecto para portafolio: Diseño y desarrollo de una landing page para una empresa de
+                                    cabañas, enfocada en ofrecer una experiencia única de descanso y conexión con la
+                                    naturaleza.</p>
+                            </div>
                             <div class="tecnologiasUsadas">
                                 <img class="iconoHabUt" src="imagenes/iconosHab/figma_logo 1.webp" alt="FigmaLogo">
                             </div>
                             <div>
-                                <button onclick="location.href='https://www.figma.com/design/TU6mwkILkDacmzb1jPL5ic/Untitled?node-id=0-1&t=r1AqAjpmoqrr5RFQ-1'">VER DISEÑO</button>
+                                <button
+                                    onclick="location.href='https://www.figma.com/design/TU6mwkILkDacmzb1jPL5ic/Untitled?node-id=0-1&t=r1AqAjpmoqrr5RFQ-1'">VER
+                                    DISEÑO</button>
                             </div>
                         </div>
-                        <div  data-aos="fade-right" class="imagencja"><img style="object-fit:cover; object-position:top;" src="imagenes/trabajos/diseño web/serium.webp" alt="SeriumPage"></div>
+                        <div data-aos="fade-right" class="imagencja"><img style="object-fit:cover; object-position:top;"
+                                src="imagenes/trabajos/diseño web/serium.webp" alt="SeriumPage"></div>
 
                     </div>
                 </div>
@@ -995,7 +1103,8 @@
                     <form action="https://formsubmit.co/voxaive@gmail.com" method="POST">
                         <input placeholder="EMAIL" type="email" name="email" wfd-id="id8">
                         <input placeholder="NOMBRE Y APELLIDO" type="text" name="NOMBRE Y APELLIDO" wfd-id="id9">
-                        <textarea placeholder="MENSAJE" class="textoG" type="text" name="mensaje" wfd-id="id10"></textarea>
+                        <textarea placeholder="MENSAJE" class="textoG" type="text" name="mensaje"
+                            wfd-id="id10"></textarea>
                         <input type="submit" value="ENVIAR" wfd-id="id11">
                     </form>
                 </div>
@@ -1003,7 +1112,7 @@
         </div>
         <div class="division">
             <div class="cajaJuntar">
-                <hr  style="margin-right:20px;">
+                <hr style="margin-right:20px;">
                 <div class="circCh"></div>
                 <hr style="margin-left:20px;">
             </div>
@@ -1012,7 +1121,9 @@
         <footer class="contactoInf">
             <div>
                 <ul>
-                    <li><h3>SECCIONES</h3></li>
+                    <li>
+                        <h3>SECCIONES</h3>
+                    </li>
                     <li><a href="#inicio">INICIO</a></li>
                     <li><a href="#about">SOBRE NOSOTROS</a></li>
                     <li><a href="#habilidades">HABILIDADES</a></li>
@@ -1022,8 +1133,12 @@
             </div>
             <div>
                 <ul>
-                    <li><h3>CONTACTOS</h3></li>
-                    <li><p>EMAIL:voxaive@gmail.com</p></li>
+                    <li>
+                        <h3>CONTACTOS</h3>
+                    </li>
+                    <li>
+                        <p>EMAIL:voxaive@gmail.com</p>
+                    </li>
                 </ul>
             </div>
         </footer>
@@ -1034,4 +1149,5 @@
     </script>
     <script src="index.js"></script>
 </body>
+
 </html>
