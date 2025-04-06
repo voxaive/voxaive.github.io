@@ -1893,7 +1893,9 @@ input[type="submit"]:hover{
         width: 16.666%;
     }
 
-
+    .habTitCaja{
+        width: 85%;
+    }
 
 }
 .s{
