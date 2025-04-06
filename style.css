@@ -776,6 +776,10 @@ li{
     .sd{
         width: 85%;
     }
+    .iconosD{
+        justify-content: space-between;
+        width: 80%;
+    }
 }
 /*fin contactar*/
 
