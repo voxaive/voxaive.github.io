@@ -358,8 +358,11 @@ li:hover a{
     margin-left: 40px;
     width: 80%;
 }
+.pInfBann{
+    width: 85%;
+}
 .superpuesto{
-    width: 130%;
+    width: 140%;
     height: 450px;
     position: relative;
     left: -400px;
@@ -575,7 +578,8 @@ li:hover a{
     align-items: center;
 }
 .centrarTodoProy{
-    display: none;   
+    display: none;  
+    justify-content: space-between; 
     margin-top: 50px;
     width: 85%;
     height: 80%; 
@@ -709,7 +713,7 @@ li:hover a{
 .cajaContactar{
     height: 100%;
     display: flex;
-    width: 50%;
+    width: 85%;
     justify-content: center;
     align-items: center;
 }
@@ -755,8 +759,8 @@ button:hover{
 }
 .contactoInf{
     display: flex;
-    width: 80%;
-    justify-content: space-around;
+    width: 85%;
+    justify-content: space-between;
 }
 ul{
     list-style: none;
@@ -764,11 +768,7 @@ ul{
 li{
     margin: 0px;
 }
-@media(max-width: 1291px){
-    .cajaContactar{
-        width: 85%;
-    }
-}
+
 @media(max-width: 500px){
     .contactoInf{
         flex-direction: column;
@@ -809,6 +809,7 @@ li{
 /*Trabajos*/
 .Trab {
     width: 100%;
+    font-size: 32px;
     display: flex;
     margin-top: 100px;
     justify-content: center;
@@ -973,7 +974,7 @@ a {
 #item-8:hover .titulo,
 #item-8:hover .fondo {
     display: block;
-
+    
 }
 
 .fondo {
@@ -1786,7 +1787,7 @@ input[type="submit"]:hover{
         -ms-overflow-style: none;
         scrollbar-width: none;
         margin: 0 auto 0 auto;
-        width: 90vw;
+        width: 85vw;
         height: fit-content;
 
     }
@@ -1821,7 +1822,6 @@ input[type="submit"]:hover{
         font-size: 15px;
         display: block;
 
-
     }
 
     .item:hover .titulo {
@@ -1841,7 +1841,7 @@ input[type="submit"]:hover{
 
     .tituloResp {
         display: flex;
-        margin: 35px;
+        margin-top: 35px;
         color: white;
     }
 }
